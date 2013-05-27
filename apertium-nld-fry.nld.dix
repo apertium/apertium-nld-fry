@@ -11779,6 +11779,7 @@
     <!-- SECTION: adv.xml -->
 
     <e lm="waar"><i>waar</i><par n="hoe__adv"/></e>
+    <e lm="erg"><i>erg</i><par n="es__adv"/></e>
     <e lm="altijd"><i>altijd</i><par n="es__adv"/></e>
     <e lm="nu"><i>nu</i><par n="es__adv"/></e>
     <e lm="ook"><i>ook</i><par n="es__adv"/></e>

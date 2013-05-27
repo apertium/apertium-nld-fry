@@ -8,6 +8,7 @@
     <sdef n="num"     c="Numeral"/>
     <sdef n="adv"     c="Adverb"/>
     <sdef n="det"     c="Determiner"/>
+    <sdef n="preadv"  c="Preadverb"/>
     <sdef n="prn"     c="Pronoun"/>
     <sdef n="vbhaver" c="Verb 'to have'"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
@@ -111,6 +112,8 @@
     <!-- SECTION: Adverbs -->
 
     <e><p><l>waar<s n="adv"/><s n="itg"/></l><r>wêr<s n="adv"/><s n="itg"/></r></p></e>
+
+    <e><p><l>erg<s n="adv"/></l><r>tige<s n="preadv"/></r></p></e>
 
     <e><p><l>altijd<s n="adv"/></l><r>altyd<s n="adv"/></r></p></e>
     <e><p><l>nu<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
