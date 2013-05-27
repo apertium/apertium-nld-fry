@@ -10,4 +10,8 @@
 /fry-nld.prob -text svneol=unset#unset
 /modes.xml -text
 /nld-fry.prob -text svneol=unset#unset
+nld/apertium-nld-fry.nld.dix.full -text
+nld/backup_update.sh -text
+nld/trimDict.py -text
+nld/update.sh -text
 texts/story.nld.txt -text
