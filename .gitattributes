@@ -10,3 +10,4 @@
 /fry-nld.prob -text svneol=unset#unset
 /modes.xml -text
 /nld-fry.prob -text svneol=unset#unset
+texts/story.nld.txt -text
