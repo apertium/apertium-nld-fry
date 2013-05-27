@@ -22,13 +22,16 @@
     <sdef n="p3"      c="3rd person"/>
 
     <sdef n="top"     c="Toponym"/>
+    <sdef n="ant"     c="Anthroponym"/>
 
     <sdef n="ind"     c="Indefinite"/>
     <sdef n="def"     c="Definite"/>
+    <sdef n="itg"     c="Interrogative"/>
     <sdef n="pers"    c="Personal"/>
 
     <sdef n="sg"      c="Singular"/>
     <sdef n="pl"      c="Plural"/>
+    <sdef n="sp"      c="Singular / plural"/>
 
     <sdef n="pres"    c="Present"/>
     <sdef n="past"    c="Past"/>
@@ -37,8 +40,50 @@
     <sdef n="pprs"    c="Present participle"/>
     <sdef n="inf"     c="Infinitive -e"/>
     <sdef n="inf2"    c="Infinitive -n"/>
+
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="sent"    c="Sentence marker"/>
+    <sdef n="lpar"    c="Left parenthesis"/>
+    <sdef n="rpar"    c="Right parenthesis"/>
+    <sdef n="lquot"   c="Left quote"/>
+    <sdef n="rquot"   c="Right quote"/>
+    <sdef n="guio"    c="Hyphen"/>
+    <sdef n="apos"    c="Apostrophe"/>
+
   </sdefs>
   <pardefs>
+
+   <!-- SECTION: Punctuation -->
+
+    <pardef n="separa">
+      <e><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="cometa">
+      <e><re>[’'‘]</re><p><l/><r><s n="apos"/></r></p></e>
+    </pardef>
+
+    <pardef n="guionet">
+      <e>       <p><l>-</l><r>-<s n="guio"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e>       <p><l>,</l><r>,<s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l/><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l/><r><s n="rpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="numeros">
+      <e><re>[0-9]+([., ][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
+    </pardef>
+
+
     <!-- SECTION: Conjunctions -->
 
     <pardef n="en__cnjcoo">
@@ -102,7 +147,7 @@
     </pardef>
 
     <pardef n="twa__num">
-      <e><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="sp"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Nouns -->
@@ -113,6 +158,10 @@
 
     <pardef n="bûter__n_mf"><!-- mass -->
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="weer__n_nt"><!-- mass -->
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="dream__n_mf">
@@ -128,6 +177,11 @@
     <pardef n="l/ân__n_nt">
       <e><p><l>ân</l><r>ân<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>annen</l><r>ân<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="t/ún__n_mf">
+      <e><p><l>ún</l><r>ún<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>unen</l><r>ún<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="fak__n_nt">
@@ -198,6 +252,11 @@
     <pardef n="boat__n_nt">
       <e><p><l/><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>en</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="h/ûs__n_nt">
+      <e><p><l>ûs</l><r>ûs<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>uzen</l><r>ûs<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="bûse__n_nt">
@@ -322,7 +381,19 @@
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="Marie__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Jan__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Adverbs -->
+
+    <pardef n="wêr__adv">
+      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
 
     <pardef n="temûk__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
@@ -331,8 +402,8 @@
     <!-- SECTION: Verbs -->
 
     <pardef n="/wêze__vbser">
-      <e><p><l>wêze</l><r>wêze<s n="vbhaver"/><s n="inf"/></r></p></e>
-      <e><p><l>wêzen</l><r>wêze<s n="vbhaver"/><s n="inf2"/></r></p></e>
+      <e><p><l>wêze</l><r>wêze<s n="vbser"/><s n="inf"/></r></p></e>
+      <e><p><l>wêzen</l><r>wêze<s n="vbser"/><s n="inf2"/></r></p></e>
 
       <e><p><l>west</l><r>wêze<s n="vbser"/><s n="pp"/></r></p></e>
       <e><p><l>wêzend</l><r>wêze<s n="vbser"/><s n="pprs"/></r></p></e>
@@ -502,6 +573,7 @@
     <e lm="hoanne"><i>hoanne</i><par n="ûne__n_mf"/></e>
     <e lm="hope"><i>hope</i><par n="bûse__n_nt"/></e>
     <e lm="hân"><i>h</i><par n="h/ân__n_mf"/></e>
+    <e lm="hûs"><i>h</i><par n="h/ûs__n_nt"/></e>
     <e lm="ierdbei"><i>ierdbei</i><par n="dream__n_mf"/></e>
     <e lm="jeft"><i>jeft</i><par n="dream__n_mf"/></e>
     <e lm="jerke"><i>jerke</i><par n="ûne__n_mf"/></e>
@@ -589,6 +661,8 @@
     <e lm="tsjil"><i>tsjil</i><par n="tsjil__n_mf"/></e>
     <e lm="tsjirk"><i>tsjirk</i><par n="dream__n_mf"/></e>
     <e lm="tsjoenster"><i>tsjoenster</i><par n="apel__n_mf"/></e>
+    <e lm="tún"><i>t</i><par n="t/ún__n_mf"/></e>
+    <e lm="weer"><i>weer</i><par n="weer__n_nt"/></e>
     <e lm="wein"><i>wein</i><par n="dream__n_mf"/></e>
     <e lm="wierheid"><i>wierhe</i><par n="stri/id__n_mf"/></e>
     <e lm="wike"><i>wike</i><par n="ûne__n_mf"/></e>
@@ -612,11 +686,19 @@
     <e lm="Sina"><i>Sina</i><par n="Fryslân__np"/></e>
     <e lm="Peking"><i>Peking</i><par n="Fryslân__np"/></e>
 
+    <e lm="Marie"><i>Marie</i><par n="Marie__np"/></e>
+    <e lm="Jan"><i>Jan</i><par n="Jan__np"/></e>
+
     <!-- SECTION: Adjectives -->
 
     <!-- SECTION: Adverbs -->
 
+    <e lm="wêr"><i>wêr</i><par n="wêr__adv"/></e>
+
     <e lm="temûk"><i>temûk</i><par n="temûk__adv"/></e>
+    <e lm="altyd"><i>altyd</i><par n="temûk__adv"/></e>
+    <e lm="no"><i>no</i><par n="temûk__adv"/></e>
+    <e lm="ek"><i>ek</i><par n="temûk__adv"/></e>
 
     <!-- SECTION: Verbs -->
 
@@ -627,4 +709,14 @@
 
     <!-- SECTION: Punctuation -->
   </section>
+  <section id="final" type="inconditional">
+    <e><par n="separa"/></e>
+    <e><par n="numeros"/></e>
+    <e><par n="cometa"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="guionet"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
+  </section>
+
 </dictionary>

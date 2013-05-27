@@ -21,8 +21,10 @@
     <sdef n="p2"      c="2nd person"/>
     <sdef n="p3"      c="3rd person"/>
     <sdef n="top"     c="Toponym"/>
+    <sdef n="ant"     c="Anthroponym"/>
     <sdef n="ind"     c="Indefinite"/>
     <sdef n="def"     c="Definite"/>
+    <sdef n="itg"     c="Interrogative"/>
     <sdef n="pers"    c="Personal"/>
     <sdef n="sg"      c="Singular"/>
     <sdef n="pl"      c="Plural"/>
@@ -57,13 +59,29 @@
     <e><p><l>sinds<s n="pr"/></l><r>sûnt<s n="pr"/></r></p></e>
     <e><p><l>in<s n="pr"/></l><r>yn<s n="pr"/></r></p></e>
     <e><p><l>van<s n="pr"/></l><r>fan<s n="pr"/></r></p></e>
+    <e><p><l>onder<s n="pr"/></l><r>ûnder<s n="pr"/></r></p></e>
+    <e><p><l>achter<s n="pr"/></l><r>efter<s n="pr"/></r></p></e>
+    <e><p><l>bij<s n="pr"/></l><r>by<s n="pr"/></r></p></e>
+    <e><p><l>voor<s n="pr"/></l><r>foar<s n="pr"/></r></p></e>
+    <e><p><l>met<s n="pr"/></l><r>mei<s n="pr"/></r></p></e>
+    <e><p><l>als<s n="pr"/></l><r>as<s n="pr"/></r></p></e>
+    <e><p><l>door<s n="pr"/></l><r>troch<s n="pr"/></r></p></e>
+
 
     <!-- SECTION: Determiners -->
 
     <e><p><l>de<s n="det"/><s n="def"/></l><r>de<s n="det"/><s n="def"/></r></p></e>
     <e><p><l>een<s n="det"/><s n="ind"/></l><r>in<s n="det"/><s n="ind"/></r></p></e>
 
+    <!-- SECTION: Numerals -->
+
+    <e><p><l>twee<s n="num"/></l><r>twa<s n="num"/></r></p></e>
+    <e><p><l>vijf<s n="num"/></l><r>fiif<s n="num"/></r></p></e>
+    <e><p><l>zes<s n="num"/></l><r>seis<s n="num"/></r></p></e>
+
     <!-- SECTION: Nouns -->
+
+    <e><p><l>weer<s n="n"/><s n="nt"/></l><r>weer<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>wereld<s n="n"/><s n="mf"/></l><r>wrâld<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>broer<s n="n"/><s n="m"/></l><r>broer<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>droom<s n="n"/><s n="m"/></l><r>dream<s n="n"/><s n="mf"/></r></p></e>
@@ -78,6 +96,8 @@
     <e><p><l>stad<s n="n"/><s n="f"/></l><r>stêd<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>president<s n="n"/><s n="m"/></l><r>presidint<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>volksrepubliek<s n="n"/><s n="f"/></l><r>folksrepublyk<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>tuin<s n="n"/><s n="m"/></l><r>tún<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>huis<s n="n"/><s n="nt"/></l><r>hûs<s n="n"/><s n="nt"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -85,8 +105,21 @@
     <e><p><l>Beijing<s n="np"/><s n="top"/><s n="nt"/></l><r>Peking<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Friesland<s n="np"/><s n="top"/><s n="nt"/></l><r>Fryslân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 
+    <e><p><l>Jan<s n="np"/><s n="ant"/><s n="m"/></l><r>Jan<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Marie<s n="np"/><s n="ant"/><s n="f"/></l><r>Marie<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+    <!-- SECTION: Adverbs -->
+
+    <e><p><l>waar<s n="adv"/><s n="itg"/></l><r>wêr<s n="adv"/><s n="itg"/></r></p></e>
+
+    <e><p><l>altijd<s n="adv"/></l><r>altyd<s n="adv"/></r></p></e>
+    <e><p><l>nu<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>ook<s n="adv"/></l><r>ek<s n="adv"/></r></p></e>
+
     <!-- SECTION: Verbs -->
-    <e><p><l>wezen<s n="vblex"/></l><r>wêze<s n="vbser"/></r></p></e>
+
+    <e><p><l>zijn<s n="vbser"/></l><r>wêze<s n="vbser"/></r></p></e>
+    <e><p><l>hebben<s n="vbhaver"/></l><r>hawwe<s n="vbhaver"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 

@@ -11778,6 +11778,10 @@
 
     <!-- SECTION: adv.xml -->
 
+    <e lm="waar"><i>waar</i><par n="hoe__adv"/></e>
+    <e lm="altijd"><i>altijd</i><par n="es__adv"/></e>
+    <e lm="nu"><i>nu</i><par n="es__adv"/></e>
+    <e lm="ook"><i>ook</i><par n="es__adv"/></e>
     <!-- SECTION: cnj.xml -->
 
     <e lm="en"><i>en</i><par n="en__cnjcoo"/></e>
@@ -11796,10 +11800,16 @@
 
     <e lm="China"><i>China</i><par n="Afrika__np"/></e>
     <e lm="Beijing"><i>Beijing</i><par n="Frankrijk__np"/></e>
+    <e lm="Jan"><i>Jan</i><par n="Wynand__np"/></e>
+    <e lm="Marie"><i>Marie</i><par n="Anrie__np"/></e>
     <!-- SECTION: num.xml -->
 
+    <e lm="twee"><i>twee</i><par n="twee__num"/></e>
+    <e lm="vijf"><i>vijf</i><par n="twee__num"/></e>
+    <e lm="zes"><i>zes</i><par n="twee__num"/></e>
     <!-- SECTION: n.xml -->
 
+    <e lm="weer"><i>weer</i><par n="fascisme__n_nt"/></e>
     <e lm="wereld"><i>wereld</i><par n="akst__n_mf"/></e>
     <e lm="broer"><i>broer</i><par n="led__n_m"/></e>
     <e lm="droom"><i>dro</i><par n="bo/om__n_m"/></e>
@@ -11814,8 +11824,12 @@
     <e lm="stad"><i>st</i><par n="st/ad__n_f"/></e>
     <e lm="president"><i>president</i><par n="Belg__n_m"/></e>
     <e lm="volksrepubliek"><i>volksrepubliek</i><par n="vering__n_f"/></e>
+    <e lm="tuin"><i>tuin</i><par n="Belg__n_m"/></e>
+    <e lm="huis"><i>hui</i><par n="hui/s__n_nt"/></e>
     <!-- SECTION: otr.xml -->
 
+    <e lm="zijn"><i/><par n="/zijn__vbser"/></e>
+    <e lm="hebben"><i></i><par n="/hebben__vbhaver"/></e>
     <!-- SECTION: preadv.xml -->
 
     <!-- SECTION: predet.xml -->
@@ -11831,14 +11845,19 @@
     <e lm="sinds"><i>sinds</i><par n="van__pr"/></e>
     <e lm="in"><i>in</i><par n="van__pr"/></e>
     <e lm="van"><i>van</i><par n="van__pr"/></e>
+    <e lm="onder"><i>onder</i><par n="van__pr"/></e>
+    <e lm="achter"><i>achter</i><par n="van__pr"/></e>
+    <e lm="bij"><i>bij</i><par n="van__pr"/></e>
+    <e lm="voor"><i>voor</i><par n="van__pr"/></e>
+    <e lm="met"><i>met</i><par n="van__pr"/></e>
+    <e lm="als"><i>als</i><par n="van__pr"/></e>
+    <e lm="door"><i>door</i><par n="van__pr"/></e>
     <!-- SECTION: rel.xml -->
 
     <!-- SECTION: vaux.xml -->
 
     <!-- SECTION: vblex.xml -->
 
-    <e lm="wezen"><i></i><par n="/wezen__vblex"/></e>
-    <e lm="wezen"><p><l>geweest</l><r>wezen</r></p><par n="gesproken__vblex"/></e>
 </section>
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>
