@@ -4,6 +4,7 @@
     <sdef n="n"       c="Noun"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="pr"      c="Preposition"/>
+    <sdef n="ij"      c="Interjection"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="adv"     c="Adverb"/>
     <sdef n="det"     c="Determiner"/>
@@ -104,6 +105,13 @@
     <pardef n="by__pr">
       <e><p><l></l><r><s n="pr"/></r></p></e>
     </pardef>
+
+    <!-- SECTION: Interjections -->
+
+    <pardef n="nee__ij">
+      <e><p><l></l><r><s n="ij"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Determiners -->
 
@@ -609,6 +617,110 @@
       <e><p><l>joch</l><r>jen<s n="vblex"/><s n="imp"/></r></p></e>
     </pardef>
 
+    <pardef n="/ite__vblex">
+      <e><p><l>ite</l><r>ite<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ite</l><r>ite<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>iten</l><r>ite<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>itend</l><r>ite<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>itende</l><r>ite<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l>yt</l><r>ite<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ytst</l><r>ite<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>yt</l><r>ite<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ite</l><r>ite<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>iet</l><r>ite<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ietst</l><r>ite<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>iet</l><r>ite<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ieten</l><r>ite<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l>yt</l><r>ite<s n="vblex"/><s n="imp"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="dr/inke__vblex">
+      <e><p><l>inke</l><r>inke<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>inke</l><r>inke<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>inken</l><r>inke<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>inkend</l><r>inke<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>inkende</l><r>inke<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l>ink</l><r>inke<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>inkst</l><r>inke<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>inkt</l><r>inke<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>inke</l><r>inke<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>onk</l><r>inke<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>onkst</l><r>inke<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>onk</l><r>inke<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>onken</l><r>inke<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ink</l><r>inke<s n="vblex"/><s n="imp"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="wi/tte__vblex">
+      <e><p><l>tte</l><r>tte<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>tte</l><r>tte<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>tten</l><r>tte<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>ttend</l><r>tte<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>ttende</l><r>tte<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l>t</l><r>tte<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>tst</l><r>tte<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>t</l><r>tte<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>tte</l><r>tte<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>st</l><r>tte<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>st</l><r>tte<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>st</l><r>tte<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>sten</l><r>tte<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l>t</l><r>tte<s n="vblex"/><s n="imp"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="k/omme__vblex">
+      <e><p><l>omme</l><r>omme<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>omme</l><r>omme<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>ommen</l><r>omme<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>ommend</l><r>omme<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>ommende</l><r>omme<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l>om</l><r>omme<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>omst</l><r>omme<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>omt</l><r>omme<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>omme</l><r>omme<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>aam</l><r>omme<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>aamst</l><r>omme<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>aam</l><r>omme<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>amen</l><r>omme<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l>om</l><r>omme<s n="vblex"/><s n="imp"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="d/waan__vblex">
+      <e><p><l>waan</l><r>waan<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>waan</l><r>waan<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>ien</l><r>waan<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>waand</l><r>waan<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>waande</l><r>waan<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l>och</l><r>waan<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ochst</l><r>waan<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ocht</l><r>waan<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ogge</l><r>waan<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ie</l><r>waan<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>iest</l><r>waan<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ie</l><r>waan<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ienen</l><r>waan<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l>och</l><r>waan<s n="vblex"/><s n="imp"/></r></p></e>
+    </pardef>
+
     <pardef n="s/izze__vblex">
       <e><p><l>izze</l><r>izze<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>izze</l><r>izze<s n="vblex"/><s n="inf2"/></r></p></e>
@@ -656,7 +768,6 @@
 
       <e><p><l>iep</l><r>iepe<s n="vblex"/><s n="imp"/></r></p></e>
     </pardef>
-
 
 
 
@@ -989,8 +1100,16 @@
     <e lm="sjen"><i>s</i><par n="s/jen__vblex"/></e>
     <e lm="sizze"><i>s</i><par n="s/izze__vblex"/></e>
     <e lm="sliepe"><i>sl</i><par n="sl/iepe__vblex"/></e>
+    <e lm="dwaan"><i>d</i><par n="d/waan__vblex"/></e>
+    <e lm="komme"><i>k</i><par n="k/omme__vblex"/></e>
+    <e lm="witte"><i>wi</i><par n="wi/tte__vblex"/></e>
+    <e lm="drinke"><i>dr</i><par n="dr/inke__vblex"/></e>
+    <e lm="ite"><i></i><par n="/ite__vblex"/></e>
 
     <!-- SECTION: Interjections -->
+
+    <e lm="nee"><i>nee</i><par n="nee__ij"/></e>
+    <e lm="wolkom by"><i>wolkom<b/>by</i><par n="nee__ij"/></e>
 
     <!-- SECTION: Punctuation -->
   </section>
