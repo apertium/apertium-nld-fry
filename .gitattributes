@@ -1,2 +1,11 @@
 * text=auto !eol
+/apertium-nld-fry.fry-nld.lrx -text
+/apertium-nld-fry.fry-nld.t1x -text
 /apertium-nld-fry.fry.dix -text
+/apertium-nld-fry.nld-fry.dix -text
+/apertium-nld-fry.nld-fry.lrx -text
+/apertium-nld-fry.nld-fry.t1x -text
+/apertium-nld-fry.nld.dix -text
+/fry-nld.prob -text svneol=unset#unset
+/modes.xml -text
+/nld-fry.prob -text svneol=unset#unset

@@ -1,0 +1,109 @@
+<dictionary>
+  <alphabet/>
+
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="num"     c="Numeral"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="vbhaver" c="Verb 'to have'"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
+    <sdef n="vblex"   c="Verb"/>
+    <sdef n="cnjcoo"  c="Verb"/>
+    <sdef n="nt"      c="Neuter"/>
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="mf"      c="Masculine / feminine (Common)"/>
+    <sdef n="p1"      c="1st person"/>
+    <sdef n="p2"      c="2nd person"/>
+    <sdef n="p3"      c="3rd person"/>
+    <sdef n="top"     c="Toponym"/>
+    <sdef n="ind"     c="Indefinite"/>
+    <sdef n="def"     c="Definite"/>
+    <sdef n="pers"    c="Personal"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="pres"    c="Present"/>
+    <sdef n="past"    c="Past"/>
+    <sdef n="imp"     c="Imperative"/>
+    <sdef n="pp"      c="Past participle"/>
+    <sdef n="pprs"    c="Present participle"/>
+    <sdef n="inf"     c="Infinitive -e"/>
+    <sdef n="inf2"    c="Infinitive -n"/>
+
+
+    <sdef n="cm"         c="Comma"/>
+    <sdef n="sent"       c="Sentence marker"/>
+    <sdef n="lpar"       c="Left parenthesis"/>
+    <sdef n="rpar"       c="Right parenthesis"/>
+    <sdef n="lquot"      c="Left quote"/>
+    <sdef n="rquot"      c="Right quote"/>
+    <sdef n="guio"       c="Hyphen"/>
+    <sdef n="apos"       c="Apostrophe"/>
+
+  </sdefs>
+
+  <section id="main" type="standard">
+
+    <!-- SECTION: Conjunctions -->
+
+    <e><p><l>en<s n="cnjcoo"/></l><r>en<s n="cnjcoo"/></r></p></e>
+
+    <!-- SECTION: Prepositions -->
+
+    <e><p><l>sinds<s n="pr"/></l><r>sûnt<s n="pr"/></r></p></e>
+    <e><p><l>in<s n="pr"/></l><r>yn<s n="pr"/></r></p></e>
+    <e><p><l>van<s n="pr"/></l><r>fan<s n="pr"/></r></p></e>
+
+    <!-- SECTION: Determiners -->
+
+    <e><p><l>de<s n="det"/><s n="def"/></l><r>de<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>een<s n="det"/><s n="ind"/></l><r>in<s n="det"/><s n="ind"/></r></p></e>
+
+    <!-- SECTION: Nouns -->
+    <e><p><l>wereld<s n="n"/><s n="mf"/></l><r>wrâld<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>broer<s n="n"/><s n="m"/></l><r>broer<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>droom<s n="n"/><s n="m"/></l><r>dream<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>land<s n="n"/><s n="nt"/></l><r>lân<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>dag<s n="n"/><s n="m"/></l><r>dei<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>boek<s n="n"/><s n="nt"/></l><r>boek<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>bos<s n="n"/><s n="nt"/></l><r>bosk<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>appel<s n="n"/><s n="m"/></l><r>apel<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>dochter<s n="n"/><s n="f"/></l><r>dochter<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>hand<s n="n"/><s n="f"/></l><r>hân<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>hoofdstad<s n="n"/><s n="f"/></l><r>haadstêd<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>stad<s n="n"/><s n="f"/></l><r>stêd<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>president<s n="n"/><s n="m"/></l><r>presidint<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>volksrepubliek<s n="n"/><s n="f"/></l><r>folksrepublyk<s n="n"/><s n="mf"/></r></p></e>
+
+    <!-- SECTION: Proper nouns -->
+
+    <e><p><l>China<s n="np"/><s n="top"/><s n="nt"/></l><r>Sina<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Beijing<s n="np"/><s n="top"/><s n="nt"/></l><r>Peking<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Friesland<s n="np"/><s n="top"/><s n="nt"/></l><r>Fryslân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+
+    <!-- SECTION: Verbs -->
+    <e><p><l>wezen<s n="vblex"/></l><r>wêze<s n="vbser"/></r></p></e>
+
+    <!-- SECTION: Punctuation -->
+
+<e>       <p><l>,<s n="cm"/></l>                  <r>,<s n="cm"/></r></p></e>
+<e>       <p><l>(<s n="lpar"/></l>                <r>(<s n="lpar"/></r></p></e>
+<e>       <p><l>)<s n="rpar"/></l>                <r>)<s n="rpar"/></r></p></e>
+<e>       <p><l>[<s n="lpar"/></l>                <r>[<s n="lpar"/></r></p></e>
+<e>       <p><l>]<s n="rpar"/></l>                <r>]<s n="rpar"/></r></p></e>
+<e>       <p><l>«<s n="lquot"/></l>               <r>«<s n="lquot"/></r></p></e>
+<e>       <p><l>»<s n="rquot"/></l>               <r>»<s n="rquot"/></r></p></e>
+<e>       <p><l>“<s n="lquot"/></l>               <r>“<s n="lquot"/></r></p></e>
+<e>       <p><l>”<s n="rquot"/></l>               <r>”<s n="rquot"/></r></p></e>
+<e>       <p><l>-<s n="guio"/></l>                <r>-<s n="guio"/></r></p></e>
+<e>       <p><l>—<s n="guio"/></l>                <r>—<s n="guio"/></r></p></e>
+<e>       <p><l>'<s n="apos"/></l>                <r>'<s n="apos"/></r></p></e>
+<e>       <re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+<e>       <re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
+  </section>
+</dictionary>
