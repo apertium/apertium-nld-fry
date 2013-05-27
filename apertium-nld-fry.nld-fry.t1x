@@ -4,8 +4,11 @@
   <section-def-cats>
     
     <def-cat n="nom">
-      <cat-item tags="n"/>
       <cat-item tags="n.*"/>
+    </def-cat>
+
+    <def-cat n="vblex-imp">
+      <cat-item tags="vblex.imp.*"/>
     </def-cat>
    
   </section-def-cats>
@@ -52,6 +55,23 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: vblex-imp"> 
+      <pattern>
+        <pattern-item n="vblex-imp"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="nbr"/>
+          <lit v=""/>
+        </let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>

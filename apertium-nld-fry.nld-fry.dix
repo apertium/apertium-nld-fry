@@ -13,7 +13,8 @@
     <sdef n="vbhaver" c="Verb 'to have'"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="vblex"   c="Verb"/>
-    <sdef n="cnjcoo"  c="Verb"/>
+    <sdef n="vbmod"   c="Modal verb"/>
+    <sdef n="cnjcoo"  c="Coordinating conjunction"/>
     <sdef n="nt"      c="Neuter"/>
     <sdef n="m"       c="Masculine"/>
     <sdef n="f"       c="Feminine"/>
@@ -24,9 +25,14 @@
     <sdef n="top"     c="Toponym"/>
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="ind"     c="Indefinite"/>
+    <sdef n="dem"     c="Demonstrative"/>
+    <sdef n="pos"     c="Possessive"/>
     <sdef n="def"     c="Definite"/>
     <sdef n="itg"     c="Interrogative"/>
     <sdef n="pers"    c="Personal"/>
+    <sdef n="subj"    c="Subject"/>
+    <sdef n="obj"     c="Object"/>
+    <sdef n="uns"     c="Unstressed"/>
     <sdef n="sg"      c="Singular"/>
     <sdef n="pl"      c="Plural"/>
     <sdef n="pres"    c="Present"/>
@@ -54,6 +60,8 @@
     <!-- SECTION: Conjunctions -->
 
     <e><p><l>en<s n="cnjcoo"/></l><r>en<s n="cnjcoo"/></r></p></e>
+    <e><p><l>of<s n="cnjcoo"/></l><r>of<s n="cnjcoo"/></r></p></e>
+    <e><p><l>maar<s n="cnjcoo"/></l><r>mar<s n="cnjcoo"/></r></p></e>
 
     <!-- SECTION: Prepositions -->
 
@@ -67,12 +75,58 @@
     <e><p><l>met<s n="pr"/></l><r>mei<s n="pr"/></r></p></e>
     <e><p><l>als<s n="pr"/></l><r>as<s n="pr"/></r></p></e>
     <e><p><l>door<s n="pr"/></l><r>troch<s n="pr"/></r></p></e>
+    <e><p><l>tegen<s n="pr"/></l><r>tsjin<s n="pr"/></r></p></e>
+    <e><p><l>naar<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
+    <e><p><l>naartoe<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
+    <e><p><l>om<s n="pr"/></l><r>om<s n="pr"/></r></p></e>
+    <e><p><l>te<s n="pr"/></l><r>te<s n="pr"/></r></p></e>
 
 
     <!-- SECTION: Determiners -->
 
     <e><p><l>de<s n="det"/><s n="def"/></l><r>de<s n="det"/><s n="def"/></r></p></e>
     <e><p><l>een<s n="det"/><s n="ind"/></l><r>in<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>geen<s n="det"/><s n="ind"/></l><r>gjin<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>deze<s n="det"/><s n="dem"/></l><r>dizze<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>die<s n="det"/><s n="dem"/></l><r>dy<s n="det"/><s n="dem"/></r></p></e>
+
+    <e><p><l>mijn<s n="det"/><s n="pos"/></l><r>myn<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>jouw<s n="det"/><s n="pos"/></l><r>dyn<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>uw<s n="det"/><s n="pos"/></l><r>jo<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>haar<s n="det"/><s n="pos"/></l><r>har<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>zijn<s n="det"/><s n="pos"/></l><r>syn<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>onze<s n="det"/><s n="pos"/></l><r>ús<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>jullie<s n="det"/><s n="pos"/></l><r>jimme<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>hun<s n="det"/><s n="pos"/></l><r>har<s n="det"/><s n="pos"/></r></p></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/></l><r>ik<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/></l><r>ik<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p1"/><s n="mf"/></l><r>ik<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/></r></p></e>
+
+    <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/></l><r>do<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/></l><r>do<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p2"/><s n="mf"/></l><r>do<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/></r></p></e>
+
+    <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/></l><r>hy<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/></l><r>hy<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p3"/><s n="m"/></l><r>hy<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/></r></p></e>
+
+    <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/></l><r>sy<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/></l><r>sy<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p3"/><s n="f"/></l><r>sy<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/></r></p></e>
+
+    <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/></l><r>it<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/></l><r>it<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p3"/><s n="nt"/></l><r>it<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/></r></p></e>
+
+
+    <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/></l><r>hja<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/></l><r>hja<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p3"/><s n="mf"/></l><r>hja<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/></r></p></e>
+
+    <e><p><l>wat<s n="prn"/><s n="itg"/></l><r>wat<s n="prn"/><s n="itg"/></r></p></e>
 
     <!-- SECTION: Numerals -->
 
@@ -99,6 +153,24 @@
     <e><p><l>volksrepubliek<s n="n"/><s n="f"/></l><r>folksrepublyk<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>tuin<s n="n"/><s n="m"/></l><r>tún<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>huis<s n="n"/><s n="nt"/></l><r>hûs<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>jaar<s n="n"/><s n="nt"/></l><r>jier<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>hond<s n="n"/><s n="m"/></l><r>dogge<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>hond<s n="n"/><s n="m"/></l><r>hûn<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>kat<s n="n"/><s n="mf"/></l><r>kat<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>moeder<s n="n"/><s n="f"/></l><r>mem<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>boom<s n="n"/><s n="m"/></l><r>beam<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>oog<s n="n"/><s n="nt"/></l><r>each<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>antwoord<s n="n"/><s n="nt"/></l><r>antwurd<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>hoofd<s n="n"/><s n="nt"/></l><r>holle<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>hoofd<s n="n"/><s n="nt"/></l><r>kop<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>tijd<s n="n"/><s n="m"/></l><r>tiid<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>vogel<s n="n"/><s n="m"/></l><r>fûgel<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>dier<s n="n"/><s n="nt"/></l><r>dier<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>kind<s n="n"/><s n="nt"/></l><r>bern<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>geluid<s n="n"/><s n="nt"/></l><r>lûd<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>water<s n="n"/><s n="nt"/></l><r>wetter<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>jongen<s n="n"/><s n="m"/></l><r>jonge<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>vraag<s n="n"/><s n="mf"/></l><r>fraach<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -112,17 +184,55 @@
     <!-- SECTION: Adverbs -->
 
     <e><p><l>waar<s n="adv"/><s n="itg"/></l><r>wêr<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>waarom<s n="adv"/><s n="itg"/></l><r>hawar<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>waarom<s n="adv"/><s n="itg"/></l><r>wolno<s n="adv"/><s n="itg"/></r></p></e>
 
     <e><p><l>erg<s n="adv"/></l><r>tige<s n="preadv"/></r></p></e>
 
+    <e><p><l>niet<s n="adv"/></l><r>net<s n="adv"/></r></p></e>
+
+    <e><p><l>weer<s n="adv"/></l><r>wer<s n="adv"/></r></p></e>
+    <e><p><l>alweer<s n="adv"/></l><r>alwer<s n="adv"/></r></p></e>
     <e><p><l>altijd<s n="adv"/></l><r>altyd<s n="adv"/></r></p></e>
     <e><p><l>nu<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>ook<s n="adv"/></l><r>ek<s n="adv"/></r></p></e>
+    <e><p><l>vandaag<s n="adv"/></l><r>hjoed<s n="adv"/></r></p></e>
+    <e><p><l>gisteren<s n="adv"/></l><r>juster<s n="adv"/></r></p></e>
+    <e><p><l>natuurlijk<s n="adv"/></l><r>fansels<s n="adv"/></r></p></e>
+    <e><p><l>snel<s n="adv"/></l><r>gau<s n="adv"/></r></p></e>
+    <e><p><l>buiten<s n="adv"/></l><r>bûten<s n="adv"/></r></p></e>
+    <e><p><l>nooit<s n="adv"/></l><r>nea<s n="adv"/></r></p></e>
+    <e><p><l>nooit<s n="adv"/></l><r>noait<s n="adv"/></r></p></e>
+    <e><p><l>toen<s n="adv"/></l><r>dan<s n="adv"/></r></p></e>
+    <e><p><l>dan<s n="adv"/></l><r>dan<s n="adv"/></r></p></e>
+    <e><p><l>overal<s n="adv"/></l><r>oeral<s n="adv"/></r></p></e>
+    <e><p><l>overal<s n="adv"/></l><r>rûnom<s n="adv"/></r></p></e>
+    <e><p><l>samen<s n="adv"/></l><r>meiïnoar<s n="adv"/></r></p></e>
+    <e><p><l>langzaam<s n="adv"/></l><r>stadich<s n="adv"/></r></p></e>
+    <e><p><l>aandachtig<s n="adv"/></l><r>foarsichtich<s n="adv"/></r></p></e>
+    <e><p><l>waarschijnlijk<s n="adv"/></l><r>grif<s n="adv"/></r></p></e>
+
 
     <!-- SECTION: Verbs -->
 
     <e><p><l>zijn<s n="vbser"/></l><r>wêze<s n="vbser"/></r></p></e>
     <e><p><l>hebben<s n="vbhaver"/></l><r>hawwe<s n="vbhaver"/></r></p></e>
+    <e><p><l>kunnen<s n="vbmod"/></l><r>kinne<s n="vbmod"/></r></p></e>
+
+    <e><p><l>denken<s n="vblex"/></l><r>miene<s n="vblex"/></r></p></e>
+    <e><p><l>lachen<s n="vblex"/></l><r>laitsje<s n="vblex"/></r></p></e>
+    <e><p><l>gaan<s n="vblex"/></l><r>gean<s n="vblex"/></r></p></e>
+    <e><p><l>zien<s n="vblex"/></l><r>sjen<s n="vblex"/></r></p></e>
+    <e><p><l>slapen<s n="vblex"/></l><r>sliepe<s n="vblex"/></r></p></e>
+    <e><p><l>zeggen<s n="vblex"/></l><r>sizze<s n="vblex"/></r></p></e>
+    <e><p><l>drinken<s n="vblex"/></l><r>drinke<s n="vblex"/></r></p></e>
+    <e><p><l>eten<s n="vblex"/></l><r>ite<s n="vblex"/></r></p></e>
+    <e><p><l>vinden<s n="vblex"/></l><r>fine<s n="vblex"/></r></p></e>
+    <e><p><l>zitten<s n="vblex"/></l><r>sitte<s n="vblex"/></r></p></e>
+    <e><p><l>weten<s n="vblex"/></l><r>witte<s n="vblex"/></r></p></e>
+    <e><p><l>luisteren<s n="vblex"/></l><r>harkje<s n="vblex"/></r></p></e>
+    <e><p><l>doen<s n="vblex"/></l><r>dwaan<s n="vblex"/></r></p></e>
+    <e><p><l>komen<s n="vblex"/></l><r>komme<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 

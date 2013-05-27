@@ -245,6 +245,7 @@
 
       <e>       <p><l>hij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>zij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ze</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>het</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
       <e>       <p><l>wij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -253,6 +254,7 @@
       <e>       <p><l>jullie</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>zij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+
     </pardef>
 
     <pardef n="probj__prn">
@@ -11779,17 +11781,49 @@
     <!-- SECTION: adv.xml -->
 
     <e lm="waar"><i>waar</i><par n="hoe__adv"/></e>
+    <e lm="waarom"><i>waarom</i><par n="hoe__adv"/></e>
+    <e lm="waarom"><i>waarom</i><par n="hoe__adv"/></e>
     <e lm="erg"><i>erg</i><par n="es__adv"/></e>
+    <e lm="niet"><i>niet</i><par n="es__adv"/></e>
+    <e lm="weer"><i>weer</i><par n="es__adv"/></e>
+    <e lm="alweer"><i>alweer</i><par n="es__adv"/></e>
     <e lm="altijd"><i>altijd</i><par n="es__adv"/></e>
     <e lm="nu"><i>nu</i><par n="es__adv"/></e>
     <e lm="ook"><i>ook</i><par n="es__adv"/></e>
+    <e lm="vandaag"><i>vandaag</i><par n="es__adv"/></e>
+    <e lm="gisteren"><i>gisteren</i><par n="es__adv"/></e>
+    <e lm="natuurlijk"><i>natuurlijk</i><par n="es__adv"/></e>
+    <e lm="snel"><i>snel</i><par n="es__adv"/></e>
+    <e lm="buiten"><i>buiten</i><par n="es__adv"/></e>
+    <e lm="nooit"><i>nooit</i><par n="es__adv"/></e>
+    <e lm="nooit"><i>nooit</i><par n="es__adv"/></e>
+    <e lm="toen"><i>toen</i><par n="es__adv"/></e>
+    <e lm="dan"><i>dan</i><par n="es__adv"/></e>
+    <e lm="overal"><i>overal</i><par n="es__adv"/></e>
+    <e lm="overal"><i>overal</i><par n="es__adv"/></e>
+    <e lm="samen"><i>samen</i><par n="es__adv"/></e>
+    <e lm="langzaam"><i>langzaam</i><par n="es__adv"/></e>
+    <e lm="waarschijnlijk"><i>waarschijnlijk</i><par n="es__adv"/></e>
     <!-- SECTION: cnj.xml -->
 
     <e lm="en"><i>en</i><par n="en__cnjcoo"/></e>
+    <e lm="of"><i>of</i><par n="en__cnjcoo"/></e>
+    <e lm="maar"><i>maar</i><par n="en__cnjcoo"/></e>
     <!-- SECTION: det.xml -->
 
     <e lm="de"><i></i><par n="/de__det"/></e>
     <e lm="een"><i>een</i><par n="een__det"/></e>
+    <e lm="geen"><i>geen</i><par n="een__det"/></e>
+    <e lm="deze"><i>d</i><par n="d/eze__det"/></e>
+    <e lm="die"><i>d</i><par n="d/ie__det"/></e>
+    <e lm="mijn"><i>mijn</i><par n="mijn__det"/></e>
+    <e lm="jouw"><i>jouw</i><par n="mijn__det"/></e>
+    <e lm="uw"><i>uw</i><par n="mijn__det"/></e>
+    <e lm="haar"><i>haar</i><par n="mijn__det"/></e>
+    <e lm="zijn"><i>zijn</i><par n="mijn__det"/></e>
+    <e lm="onze"><i>on</i><par n="on/ze__det"/></e>
+    <e lm="jullie"><i>jullie</i><par n="mijn__det"/></e>
+    <e lm="hun"><i>hun</i><par n="mijn__det"/></e>
     <!-- SECTION: gen.xml -->
 
 
@@ -11827,16 +11861,36 @@
     <e lm="volksrepubliek"><i>volksrepubliek</i><par n="vering__n_f"/></e>
     <e lm="tuin"><i>tuin</i><par n="Belg__n_m"/></e>
     <e lm="huis"><i>hui</i><par n="hui/s__n_nt"/></e>
+    <e lm="jaar"><i>ja</i><par n="ka/ar__n_nt"/></e>
+    <e lm="hond"><i>hond</i><par n="Belg__n_m"/></e>
+    <e lm="hond"><i>hond</i><par n="Belg__n_m"/></e>
+    <e lm="kat"><i>kat</i><par n="hut__n_mf"/></e>
+    <e lm="moeder"><i>moeder</i><par n="roe__n_f"/></e>
+    <e lm="boom"><i>bo</i><par n="bo/om__n_m"/></e>
+    <e lm="oog"><i>o</i><par n="o/og__n_nt"/></e>
+    <e lm="antwoord"><i>antwoord</i><par n="lot__n_nt"/></e>
+    <e lm="hoofd"><i>hoofd</i><par n="lot__n_nt"/></e>
+    <e lm="hoofd"><i>hoofd</i><par n="lot__n_nt"/></e>
+    <e lm="tijd"><i>tijd</i><par n="Belg__n_m"/></e>
+    <e lm="vogel"><i>vogel</i><par n="led__n_m"/></e>
+    <e lm="dier"><i>dier</i><par n="lot__n_nt"/></e>
+    <e lm="kind"><i>kind</i><par n="kind__n_nt"/></e>
+    <e lm="geluid"><i>geluid</i><par n="lot__n_nt"/></e>
+    <e lm="water"><i>water</i><par n="water__n_nt"/></e>
+    <e lm="jongen"><i>jongen</i><par n="led__n_m"/></e>
+    <e lm="vraag"><i>vra</i><par n="za/ag__n_mf"/></e>
     <!-- SECTION: otr.xml -->
 
     <e lm="zijn"><i/><par n="/zijn__vbser"/></e>
     <e lm="hebben"><i></i><par n="/hebben__vbhaver"/></e>
+    <e lm="kunnen"><i></i><par n="/kunnen__vbmod"/></e>
     <!-- SECTION: preadv.xml -->
 
     <!-- SECTION: predet.xml -->
 
     <!-- SECTION: prn.xml -->
 
+    <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
     <e lm="subject pronouns"><i></i><par n="prsubj__prn"/></e>
     <e lm="object pronouns"><i></i><par n="probj__prn"/></e>
     <e lm="reflexive pronouns"><i></i><par n="prref__prn"/></e>
@@ -11853,12 +11907,50 @@
     <e lm="met"><i>met</i><par n="van__pr"/></e>
     <e lm="als"><i>als</i><par n="van__pr"/></e>
     <e lm="door"><i>door</i><par n="van__pr"/></e>
+    <e lm="tegen"><i>tegen</i><par n="van__pr"/></e>
+    <e lm="naar"><i>naar</i><par n="van__pr"/></e>
+    <e lm="om"><i>om</i><par n="van__pr"/></e>
+    <e lm="te"><i>te</i><par n="van__pr"/></e>
     <!-- SECTION: rel.xml -->
 
     <!-- SECTION: vaux.xml -->
 
     <!-- SECTION: vblex.xml -->
 
+    <e lm="denken"><i>d</i><par n="d/enken__vblex"/></e>
+    <e lm="denken"><p><l>gedacht</l><r>denken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="lachen"><i>lach</i><par n="fax/en__vblex"/></e>
+    <e lm="lachen"><p><l>gelachen</l><r>lachen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="gaan"><p><l>gegaan</l><r>gaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="gaan"><i>g</i><par n="g/aan__vblex"/></e>
+    <e lm="zien"><p><l>gezien</l><r>zien</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zien"><i>z</i><par n="z/ien__vblex"/></e>
+    <e lm="zien"><i>z</i><par n="z/ien__vblex"/></e>
+    <e lm="zien"><p><l>gezien</l><r>zien</r></p><par n="gesproken__vblex"/></e>
+    <e lm="slapen"><p><l>geslapen</l><r>slapen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="slapen"><i>sl</i><par n="sl/apen__vblex"/></e>
+    <e lm="zeggen"><p><l>gezegd</l><r>zeggen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zeggen"><i>ze</i><par n="ze/ggen__vblex"/></e>
+    <e lm="drinken"><p><l>gedronken</l><r>drinken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="drinken"><i>dr</i><par n="z/inken__vblex"/></e>
+    <e lm="eten"><i></i><par n="/eten__vblex"/></e>
+    <e lm="eten"><p><l>gegeten</l><r>eten</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vinden"><p><l>gevonden</l><r>vinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vinden"><i>v</i><par n="b/inden__vblex"/></e>
+    <e lm="zitten"><i>z</i><par n="z/itten__vblex"/></e>
+    <e lm="zitten"><p><l>gezeten</l><r>zitten</r></p><par n="gesproken__vblex"/></e>
+    <e lm="weten"><i>w</i><par n="w/eten__vblex"/></e>
+    <e lm="weten"><p><l>geweten</l><r>weten</r></p><par n="gesproken__vblex"/></e>
+    <e lm="luisteren"><i>luister</i><par n="jij/en__vblex"/></e>
+    <e lm="luisteren"><p><l>geluisterd</l><r>luisteren</r></p><par n="gesproken__vblex"/></e>
+    <e lm="doen"><p><l>gedaan</l><r>doen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="doen"><i>d</i><par n="d/oen__vblex"/></e>
+    <e lm="doen"><i>d</i><par n="d/oen__vblex"/></e>
+    <e lm="doen"><p><l>gedaan</l><r>doen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="komen"><p><l>gekomen</l><r>komen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="komen"><i>k</i><par n="k/omen__vblex"/></e>
+    <e lm="komen"><i>k</i><par n="k/omen__vblex"/></e>
+    <e lm="komen"><p><l>gekomen</l><r>komen</r></p><par n="gesproken__vblex"/></e>
 </section>
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>

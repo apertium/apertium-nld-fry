@@ -3,8 +3,11 @@
 <modes>
   <mode name="nld-fry" install="yes">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="nld-fry.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-fry.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g">
         <file name="nld-fry.prob"/>
@@ -27,8 +30,11 @@
 
   <mode name="nld-fry-transfer">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="nld-fry.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-fry.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g">
         <file name="nld-fry.prob"/>
@@ -48,8 +54,11 @@
 
   <mode name="nld-fry-lextor">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="nld-fry.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-fry.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g">
         <file name="nld-fry.prob"/>
@@ -66,8 +75,11 @@
 
   <mode name="nld-fry-biltrans">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="nld-fry.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-fry.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g">
         <file name="nld-fry.prob"/>
@@ -80,8 +92,11 @@
 
   <mode name="nld-fry-tagger">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="nld-fry.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-fry.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g">
         <file name="nld-fry.prob"/>
@@ -89,9 +104,22 @@
     </pipeline>
   </mode>
 
+  <mode name="nld-fry-disam">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="nld-fry.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="nld-fry.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="nld-fry-morph">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="nld-fry.automorf.bin"/>
       </program>
     </pipeline>
