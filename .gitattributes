@@ -4,6 +4,7 @@
 /apertium-nld-fry.fry.dix -text
 /apertium-nld-fry.nld-fry.dix -text
 /apertium-nld-fry.nld-fry.lrx -text
+/apertium-nld-fry.nld-fry.rlx -text
 /apertium-nld-fry.nld-fry.t1x -text
 /apertium-nld-fry.nld.dix -text
 /fry-nld.prob -text svneol=unset#unset

@@ -1,0 +1,40 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+LIST BOS = (>>>) ; 
+LIST EOS = (<<<) ; 
+
+LIST V = vblex vbser vbhaver vbmod vaux ;
+LIST Pron = prn ;
+LIST Pr = pr ; 
+LIST Prop = np ;
+LIST Det = det ;
+LIST Subj = subj ;
+LIST Obj = obj ;
+LIST Fin = pres past ;
+LIST Inf = inf ;
+LIST Imper = imp ;
+LIST Sg1 = (p1 sg); 
+
+LIST NP-HEAD = n np (prn subj) ; 
+LIST NUMBER = sg pl ;
+LIST CLB = sent subj ; 
+
+SECTION
+
+SELECT Subj IF (0C Subj OR Obj) (-1 BOS);
+
+SELECT $$NUMBER IF (0 NP-HEAD + $$NUMBER) (1C Fin + $$NUMBER);
+
+SELECT Pron IF (0C Pron OR Det) (-1 BOS) (1C V);
+
+REMOVE Det IF (1C Pr);
+
+REMOVE Inf IF (NOT -1* Fin BARRIER BOS) (0C Fin OR Inf) (NOT 1* Fin BARRIER EOS);
+
+SELECT Imper IF (1* ("!") BARRIER CLB);
+
+REMOVE Imper IF ((-1 NP-HEAD) OR (1 NP-HEAD));
+
+REMOVE Fin IF (0 Sg1) (NOT -1* Subj + Sg1 BARRIER CLB) (NOT 1* Subj + Sg1 BARRIER CLB);
+  ## Zeg me waar hij is !
