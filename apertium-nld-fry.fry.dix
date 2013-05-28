@@ -40,6 +40,7 @@
     <sdef n="def"     c="Definite"/>
     <sdef n="itg"     c="Interrogative"/>
     <sdef n="par"     c="Partitive"/>
+    <sdef n="gen"     c="Genitive"/>
     <sdef n="attr"    c="Attributive"/>
     <sdef n="pred"    c="Predicative"/>
     <sdef n="sint"    c="Synthetic (adjective)"/>
@@ -740,6 +741,27 @@
       <e><p><l></l><r>je<s n="vblex"/><s n="imp"/></r></p></e>
     </pardef>
 
+    <pardef n="boart/sje__vblex">
+      <e><p><l>sje</l><r>sje<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>sjen</l><r>sje<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>e</l><r>sje<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>sjend</l><r>sje<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>sjende</l><r>sje<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l>sje</l><r>sje<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>est</l><r>sje<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>et</l><r>sje<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>sje</l><r>sje<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>e</l><r>sje<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>este</l><r>sje<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>sje<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>en</l><r>sje<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l>sje</l><r>sje<s n="vblex"/><s n="imp"/></r></p></e>
+    </pardef>
+
+
     <pardef n="kri/je__vblex">
       <e><p><l>je</l><r>je<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>jen</l><r>je<s n="vblex"/><s n="inf2"/></r></p></e>
@@ -1081,6 +1103,11 @@
 
   </pardefs>
   <section id="main" type="standard">
+
+    <!-- SECTION: Miscellaneous -->
+
+    <e lm="s" r="RL"><p><l><a/>s</l><r>s<s n="gen"/></r></p></e>
+
     <!-- SECTION: Conjunctions -->
 
     <e lm="en"><i>en</i><par n="en__cnjcoo"/></e>
@@ -1445,6 +1472,7 @@
     <e lm="laitsje"><i>la</i><par n="la/itsje__vblex"/></e>
     <e lm="gean"><i>g</i><par n="g/ean__vblex"/></e>
     <e lm="sjen"><i>s</i><par n="s/jen__vblex"/></e>
+    <e lm="besjen"><i>bes</i><par n="s/jen__vblex"/></e>
     <e lm="sizze"><i>s</i><par n="s/izze__vblex"/></e>
     <e lm="sliepe"><i>sl</i><par n="sl/iepe__vblex"/></e>
     <e lm="dwaan"><i>d</i><par n="d/waan__vblex"/></e>
@@ -1459,6 +1487,7 @@
     <e lm="prate"><i>pra</i><par n="pra/te__vblex"/></e> <!-- FIXME -->
     <e lm="rinne"><i>r</i><par n="r/inne__vblex"/></e> <!-- FIXME -->
     <e lm="krije"><i>kri</i><par n="kri/je__vblex"/></e>
+    <e lm="boartsje"><i>boart</i><par n="boart/sje__vblex"/></e>
 
     <!-- SECTION: Interjections -->
 

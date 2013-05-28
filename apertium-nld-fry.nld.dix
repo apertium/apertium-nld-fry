@@ -12007,6 +12007,10 @@
     <e lm="lopen"><i>l</i><par n="l/open__vblex"/></e>
     <e lm="krijgen"><p><l>gekregen</l><r>krijgen</r></p><par n="gesproken__vblex"/></e>
     <e lm="krijgen"><i>kr</i><par n="r/ijgen__vblex"/></e>
+    <e lm="spelen"><i>spe</i><par n="te/len__vblex"/></e>
+    <e lm="spelen"><p><l>gespeeld</l><r>spelen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="kijken"><p><l>gekeken</l><r>kijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="kijken"><i>k</i><par n="k/ijken__vblex"/></e>
 </section>
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>

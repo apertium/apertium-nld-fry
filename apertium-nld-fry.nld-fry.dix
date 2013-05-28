@@ -48,20 +48,24 @@
     <sdef n="pprs"    c="Present participle"/>
     <sdef n="inf"     c="Infinitive -e"/>
     <sdef n="inf2"    c="Infinitive -n"/>
+    <sdef n="gen"     c="Genitive"/>
 
 
-    <sdef n="cm"         c="Comma"/>
-    <sdef n="sent"       c="Sentence marker"/>
-    <sdef n="lpar"       c="Left parenthesis"/>
-    <sdef n="rpar"       c="Right parenthesis"/>
-    <sdef n="lquot"      c="Left quote"/>
-    <sdef n="rquot"      c="Right quote"/>
-    <sdef n="guio"       c="Hyphen"/>
-    <sdef n="apos"       c="Apostrophe"/>
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="sent"    c="Sentence marker"/>
+    <sdef n="lpar"    c="Left parenthesis"/>
+    <sdef n="rpar"    c="Right parenthesis"/>
+    <sdef n="lquot"   c="Left quote"/>
+    <sdef n="rquot"   c="Right quote"/>
+    <sdef n="guio"    c="Hyphen"/>
+    <sdef n="apos"    c="Apostrophe"/>
 
   </sdefs>
 
   <section id="main" type="standard">
+    <!-- SECTION: Miscellaneous -->
+
+    <e><p><l>s<s n="gen"/></l><r>s<s n="gen"/></r></p></e>
 
     <!-- SECTION: Conjunctions -->
 
@@ -289,6 +293,8 @@
     <e><p><l>tellen<s n="vblex"/></l><r>telle<s n="vblex"/></r></p></e>
     <e><p><l>lopen<s n="vblex"/></l><r>rinne<s n="vblex"/></r></p></e>
     <e><p><l>krijgen<s n="vblex"/></l><r>krije<s n="vblex"/></r></p></e>
+    <e><p><l>spelen<s n="vblex"/></l><r>boartsje<s n="vblex"/></r></p></e>
+    <e><p><l>kijken<s n="vblex"/></l><r>besjen<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Interjections -->
 
