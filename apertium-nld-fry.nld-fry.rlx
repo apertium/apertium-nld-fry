@@ -7,6 +7,7 @@ LIST EOS = (<<<) ;
 LIST V = vblex vbser vbhaver vbmod vaux ;
 LIST Pron = prn ;
 LIST Pr = pr ; 
+LIST N = n ;
 LIST Prop = np ;
 LIST Det = det ;
 LIST Subj = subj ;
@@ -38,3 +39,6 @@ REMOVE Imper IF ((-1 NP-HEAD) OR (1 NP-HEAD));
 
 REMOVE Fin IF (0 Sg1) (NOT -1* Subj + Sg1 BARRIER CLB) (NOT 1* Subj + Sg1 BARRIER CLB);
   ## Zeg me waar hij is !
+
+REMOVE Inf IF (0 Inf OR Det) (1C N);
+  ## Dan ziet ze ook een kleine hand en als ze dichterbij loopt ziet ze ook zijn hoofd!

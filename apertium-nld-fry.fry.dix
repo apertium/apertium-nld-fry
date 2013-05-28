@@ -7,6 +7,7 @@
     <sdef n="ij"      c="Interjection"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="adv"     c="Adverb"/>
+    <sdef n="adj"     c="Adjective"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="preadv"  c="Preadverb"/>
     <sdef n="prn"     c="Pronoun"/>
@@ -15,6 +16,7 @@
     <sdef n="vbmod"   c="Modal verb"/>
     <sdef n="vblex"   c="Verb"/>
     <sdef n="cnjcoo"  c="Coordinating conjunction"/>
+    <sdef n="cnjadv"  c="Adverbial conjunction"/>
 
     <sdef n="subj"    c="Subject"/>
     <sdef n="obj"     c="Object"/>
@@ -37,7 +39,14 @@
     <sdef n="pos"     c="Possessive"/>
     <sdef n="def"     c="Definite"/>
     <sdef n="itg"     c="Interrogative"/>
+    <sdef n="par"     c="Partitive"/>
+    <sdef n="attr"    c="Attributive"/>
+    <sdef n="pred"    c="Predicative"/>
+    <sdef n="sint"    c="Synthetic (adjective)"/>
     <sdef n="pers"    c="Personal"/>
+
+    <sdef n="comp"    c="Comparative"/>
+    <sdef n="sup"     c="Superlative"/>
 
     <sdef n="sg"      c="Singular"/>
     <sdef n="pl"      c="Plural"/>
@@ -100,6 +109,10 @@
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef>
 
+    <pardef n="alhoewol't__cnjadv">
+      <e><p><l></l><r><s n="cnjadv"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Prepositions -->
 
     <pardef n="by__pr">
@@ -123,6 +136,12 @@
     <pardef n="in__det">
       <e><p><l/><r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l/><r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="oar__det">
+      <e>       <p><l/><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="d/y__det">
@@ -458,6 +477,63 @@
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Adjectives -->
+
+    <pardef n="/goed__adj_sint">
+      <e>       <p><l>goed</l><r>goed<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>goede</l><r>goed<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>goeds</l><r>goed<s n="adj"/><s n="sint"/><s n="par"/></r></p></e>
+      <e>       <p><l>better</l><r>goed<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>better</l><r>goed<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>betters</l><r>goed<s n="adj"/><s n="sint"/><s n="comp"/><s n="par"/></r></p></e>
+      <e>       <p><l>bêste</l><r>goed<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+      <e>       <p><l>bêst</l><r>goed<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+    </pardef>
+
+    <pardef n="âld__adj_sint">
+      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="par"/></r></p></e>
+      <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ers</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="par"/></r></p></e>
+      <e>       <p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+      <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+    </pardef>
+
+    <pardef n="grut__adj_sint">
+      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>te</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="par"/></r></p></e>
+      <e>       <p><l>ter</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>ter</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ters</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="par"/></r></p></e>
+      <e>       <p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+      <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+    </pardef>
+
+    <pardef n="lyts__adj_sint">
+      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="par"/></r></p></e>
+      <e>       <p><l>ter</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>ter</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ters</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="par"/></r></p></e>
+      <e>       <p><l>te</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+      <e>       <p><l>t</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+    </pardef>
+
+    <pardef n="kâld__adj_sint">
+      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="par"/></r></p></e>
+      <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ers</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="par"/></r></p></e>
+      <e>       <p><l>este</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+      <e>       <p><l>est</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Adverbs -->
 
     <pardef n="wêr__adv">
@@ -529,6 +605,31 @@
       <e><p><l>oenen</l><r>inne<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>oene</l><r>inne<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="pra/te__vblex">
+      <e><p><l>te</l><r>te<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ten</l><r>te<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>at</l><r>te<s n="vblex"/><s n="pp"/></r></p></e>
+<!--
+      <e r="LR"><p><l>ind</l><r>te<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>end</l><r>te<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>ende</l><r>te<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l></l><r>te<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>st</l><r>te<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>t</l><r>te<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>te<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>de</l><r>te<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>dest</l><r>te<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>de</l><r>te<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>den</l><r>te<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l></l><r>te<s n="vblex"/><s n="imp"/></r></p></e>
+-->
+    </pardef>
+
+
 
     <pardef n="mien/e__vblex">
       <e><p><l>e</l><r>e<s n="vblex"/><s n="inf"/></r></p></e>
@@ -659,6 +760,27 @@
     </pardef>
 
 
+    <pardef n="f/ine__vblex">
+      <e><p><l>ine</l><r>ine<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ine</l><r>ine<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>ûn</l><r>ine<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>inend</l><r>ine<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>inende</l><r>ine<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l>yn</l><r>ine<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ynst</l><r>ine<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ynt</l><r>ine<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ine</l><r>ine<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ûn</l><r>ine<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ûnst</l><r>ine<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ûn</l><r>ine<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ûnen</l><r>ine<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l>yn</l><r>ine<s n="vblex"/><s n="imp"/></r></p></e>
+    </pardef>
+
+
     <pardef n="wi/tte__vblex">
       <e><p><l>tte</l><r>tte<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>tte</l><r>tte<s n="vblex"/><s n="inf2"/></r></p></e>
@@ -675,6 +797,27 @@
       <e><p><l>st</l><r>tte<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>st</l><r>tte<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>sten</l><r>tte<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l>t</l><r>tte<s n="vblex"/><s n="imp"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="si/tte__vblex">
+      <e><p><l>tte</l><r>tte<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>tte</l><r>tte<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>tten</l><r>tte<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>ttend</l><r>tte<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>ttende</l><r>tte<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l>t</l><r>tte<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>tst</l><r>tte<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>t</l><r>tte<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>tte</l><r>tte<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>iet</l><r>tte<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ietst</l><r>tte<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>iet</l><r>tte<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ieten</l><r>tte<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
 
       <e><p><l>t</l><r>tte<s n="vblex"/><s n="imp"/></r></p></e>
     </pardef>
@@ -785,6 +928,8 @@
     <e lm="of"><i>of</i><par n="en__cnjcoo"/></e>
     <e lm="mar"><i>mar</i><par n="en__cnjcoo"/></e>
 
+    <e lm="alhoewol't"><i>alhoewol't</i><par n="alhoewol't__cnjadv"/></e>
+
     <!-- SECTION: Prepositions -->
 
     <e lm="as"><i>as</i><par n="by__pr"/></e>
@@ -822,6 +967,7 @@
     <e lm="de"><i></i><par n="/de__det"/></e>
     <e lm="in"><i>in</i><par n="in__det"/></e>
     <e lm="gjin"><i>gjin</i><par n="in__det"/></e>
+    <e lm="oar"><i>oar</i><par n="oar__det"/></e>
 
     <e lm="dy"><i>d</i><par n="d/y__det"/></e>
     <e lm="dizze"><i>di</i><par n="di/zze__det"/></e>
@@ -1058,6 +1204,13 @@
 
     <!-- SECTION: Adjectives -->
 
+    <e lm="goed"><i></i><par n="/goed__adj_sint"/></e>
+    <e lm="âld"><i>âld</i><par n="âld__adj_sint"/></e>
+    <e lm="kâld"><i>kâld</i><par n="kâld__adj_sint"/></e>
+    <e lm="waarm"><i>waarm</i><par n="kâld__adj_sint"/></e>
+    <e lm="grut"><i>grut</i><par n="grut__adj_sint"/></e>
+    <e lm="lyts"><i>lyts</i><par n="lyts__adj_sint"/></e>
+
     <!-- SECTION: Adverbs -->
 
     <e lm="wêr"><i>wêr</i><par n="wêr__adv"/></e>
@@ -1086,6 +1239,9 @@
     <e lm="wer"><i>wer</i><par n="temûk__adv"/></e>
     <e lm="grif"><i>grif</i><par n="temûk__adv"/></e>
     <e lm="alwer"><i>alwer</i><par n="temûk__adv"/></e>
+    <e lm="noch"><i>noch</i><par n="temûk__adv"/></e>
+    <e lm="jit"><i>jit</i><par n="temûk__adv"/></e>
+    <e lm="dêr"><i>dêr</i><par n="temûk__adv"/></e>
     <e lm="meiïnoar"><i>meiïnoar</i><par n="temûk__adv"/></e>
 
     <!-- SECTION: Verbs -->
@@ -1103,8 +1259,11 @@
     <e lm="dwaan"><i>d</i><par n="d/waan__vblex"/></e>
     <e lm="komme"><i>k</i><par n="k/omme__vblex"/></e>
     <e lm="witte"><i>wi</i><par n="wi/tte__vblex"/></e>
+    <e lm="sitte"><i>si</i><par n="si/tte__vblex"/></e>
     <e lm="drinke"><i>dr</i><par n="dr/inke__vblex"/></e>
+    <e lm="fine"><i>f</i><par n="f/ine__vblex"/></e>
     <e lm="ite"><i></i><par n="/ite__vblex"/></e>
+    <e lm="prate"><i>pra</i><par n="pra/te__vblex"/></e>
 
     <!-- SECTION: Interjections -->
 
