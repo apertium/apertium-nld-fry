@@ -177,6 +177,7 @@
     <e><p><l>water<s n="n"/><s n="nt"/></l><r>wetter<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>jongen<s n="n"/><s n="m"/></l><r>jonge<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>vraag<s n="n"/><s n="mf"/></l><r>fraach<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>stoel<s n="n"/><s n="m"/></l><r>stoel<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -227,6 +228,7 @@
     <e><p><l>aandachtig<s n="adv"/></l><r>foarsichtich<s n="adv"/></r></p></e>
     <e><p><l>waarschijnlijk<s n="adv"/></l><r>grif<s n="adv"/></r></p></e>
     <e><p><l>daar<s n="adv"/></l><r>dêr<s n="adv"/></r></p></e>
+    <e><p><l>dus<s n="adv"/></l><r>dus<s n="adv"/></r></p></e>
     <e><p><l>nog<b/>steeds<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
     <e><p><l>nog<b/>steeds<s n="adv"/></l><r>jit<s n="adv"/></r></p></e>
 

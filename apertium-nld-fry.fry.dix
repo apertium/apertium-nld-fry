@@ -276,10 +276,14 @@
       <e><p><l>men</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
-
     <pardef n="kop__n_mf">
       <e><p><l/><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>pen</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="st/oel__n_mf">
+      <e><p><l>oel</l><r>oel<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>uollen</l><r>oel<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="mi/ch__n_mf">
@@ -1192,6 +1196,7 @@
     <e lm="ûnderseeboat"><i>ûnderseeboat</i><par n="boat__n_nt"/></e>
     <e lm="ûne"><i>ûne</i><par n="ûne__n_mf"/></e>
     <e lm="ûntploffing"><i>ûntploffing</i><par n="koker__n_nt"/></e>
+    <e lm="stoel"><i>st</i><par n="st/oel__n_mf"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -1233,6 +1238,7 @@
     <e lm="fansels"><i>fansels</i><par n="temûk__adv"/></e>
     <e lm="gau"><i>gau</i><par n="temûk__adv"/></e>
     <e lm="dan"><i>dan</i><par n="temûk__adv"/></e>
+    <e lm="dus"><i>dus</i><par n="temûk__adv"/></e>
     <e lm="oeral"><i>oeral</i><par n="temûk__adv"/></e>
     <e lm="rûnom"><i>rûnom</i><par n="temûk__adv"/></e>
     <e lm="hjoed"><i>hjoed</i><par n="temûk__adv"/></e>

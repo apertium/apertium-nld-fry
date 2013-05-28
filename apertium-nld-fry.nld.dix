@@ -11811,6 +11811,7 @@
     <e lm="langzaam"><i>langzaam</i><par n="es__adv"/></e>
     <e lm="waarschijnlijk"><i>waarschijnlijk</i><par n="es__adv"/></e>
     <e lm="daar"><i>daar</i><par n="es__adv"/></e>
+    <e lm="dus"><i>dus</i><par n="es__adv"/></e>
     <e lm="nog steeds"><i>nog<b/>steeds</i><par n="es__adv"/></e>
     <e lm="nog steeds"><i>nog<b/>steeds</i><par n="es__adv"/></e>
     <!-- SECTION: cnj.xml -->
@@ -11892,6 +11893,7 @@
     <e lm="water"><i>water</i><par n="water__n_nt"/></e>
     <e lm="jongen"><i>jongen</i><par n="led__n_m"/></e>
     <e lm="vraag"><i>vra</i><par n="za/ag__n_mf"/></e>
+    <e lm="stoel"><i>stoel</i><par n="Belg__n_m"/></e>
     <!-- SECTION: otr.xml -->
 
     <e lm="zijn"><i/><par n="/zijn__vbser"/></e>
