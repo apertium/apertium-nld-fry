@@ -11855,6 +11855,21 @@
 
     <e lm="China"><i>China</i><par n="Afrika__np"/></e>
     <e lm="Beijing"><i>Beijing</i><par n="Frankrijk__np"/></e>
+    <e lm="Nederland"><i>Nederland</i><par n="Frankrijk__np"/></e>
+    <e lm="Duitsland"><i>Duitsland</i><par n="Frankrijk__np"/></e>
+    <e lm="Engeland"><i>Engeland</i><par n="Frankrijk__np"/></e>
+	<e lm="Holland"><i>Holland</i><par n="Frankrijk__np"/></e>
+    <e lm="Estland"><i>Estland</i><par n="Frankrijk__np"/></e>
+    <e lm="Finland"><i>Finland</i><par n="Frankrijk__np"/></e>
+    <e lm="Griekenland"><i>Griekenland</i><par n="Frankrijk__np"/></e>
+    <e lm="Ijsland"><i>Ijsland</i><par n="Frankrijk__np"/></e>
+    <e lm="Lapland"><i>Lapland</i><par n="Frankrijk__np"/></e>
+    <e lm="Letland"><i>Letland</i><par n="Frankrijk__np"/></e>
+    <e lm="Nieuw-Zeeland"><i>Nieuw-Zeeland</i><par n="Frankrijk__np"/></e>
+    <e lm="Noord-Ierland"><i>Noord-Ierland</i><par n="Frankrijk__np"/></e>
+    <e lm="Rusland"><i>Rusland</i><par n="Frankrijk__np"/></e>
+    <e lm="Schotland"><i>Schotland</i><par n="Frankrijk__np"/></e>
+    <e lm="Zwitserland"><i>Zwitserland</i><par n="Frankrijk__np"/></e>
     <e lm="Jan"><i>Jan</i><par n="Wynand__np"/></e>
     <e lm="Marie"><i>Marie</i><par n="Anrie__np"/></e>
     <!-- SECTION: num.xml -->

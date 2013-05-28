@@ -7,6 +7,11 @@
 /apertium-nld-fry.nld-fry.rlx -text
 /apertium-nld-fry.nld-fry.t1x -text
 /apertium-nld-fry.nld.dix -text
+dev/testvoc/inconsistency-summary.sh -text
+dev/testvoc/inconsistency.sh -text
+dev/testvoc/testvoc-summary.fry-nld.txt -text
+dev/testvoc/testvoc-summary.nld-fry.txt -text
+dev/testvoc/testvoc.sh -text
 /fry-nld.prob -text svneol=unset#unset
 /modes.xml -text
 /nld-fry.prob -text svneol=unset#unset

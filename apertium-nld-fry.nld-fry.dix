@@ -191,6 +191,21 @@
     <e><p><l>China<s n="np"/><s n="top"/><s n="nt"/></l><r>Sina<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Beijing<s n="np"/><s n="top"/><s n="nt"/></l><r>Peking<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Friesland<s n="np"/><s n="top"/><s n="nt"/></l><r>Fryslân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Nederland<s n="np"/><s n="top"/><s n="nt"/></l><r>Nederlân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Duitsland<s n="np"/><s n="top"/><s n="nt"/></l><r>Dútslân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Engeland<s n="np"/><s n="top"/><s n="nt"/></l><r>Ingelân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Holland<s n="np"/><s n="top"/><s n="nt"/></l><r>Hollân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Estland<s n="np"/><s n="top"/><s n="nt"/></l><r>Estlân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Finland<s n="np"/><s n="top"/><s n="nt"/></l><r>Finlân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Griekenland<s n="np"/><s n="top"/><s n="nt"/></l><r>Grikelân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Ijsland<s n="np"/><s n="top"/><s n="nt"/></l><r>Yslân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Lapland<s n="np"/><s n="top"/><s n="nt"/></l><r>Laplân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Letland<s n="np"/><s n="top"/><s n="nt"/></l><r>Letlân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Nieuw-Zeeland<s n="np"/><s n="top"/><s n="nt"/></l><r>Nij-Seelân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Noord-Ierland<s n="np"/><s n="top"/><s n="nt"/></l><r>Noard-Ierlân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Rusland<s n="np"/><s n="top"/><s n="nt"/></l><r>Ruslân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Schotland<s n="np"/><s n="top"/><s n="nt"/></l><r>Skotlân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Zwitserland<s n="np"/><s n="top"/><s n="nt"/></l><r>Switserlân<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 
     <e><p><l>Jan<s n="np"/><s n="ant"/><s n="m"/></l><r>Jan<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Marie<s n="np"/><s n="ant"/><s n="f"/></l><r>Marie<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
