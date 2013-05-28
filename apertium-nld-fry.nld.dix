@@ -11787,6 +11787,7 @@
     <e lm="klein"><i>klein</i><par n="eng__adj_sint"/></e>
     <e lm="blij"><i>blij</i><par n="eng__adj_sint"/></e>
     <e lm="mooi"><i>mooi</i><par n="eng__adj_sint"/></e>
+    <e lm="klaar"><i>kla</i><par n="ga/ar__adj_sint"/></e>
     <!-- SECTION: adv.xml -->
 
     <e lm="waar"><i>waar</i><par n="hoe__adv"/></e>
@@ -11915,6 +11916,7 @@
     <!-- SECTION: prn.xml -->
 
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
+    <e lm="niks"><i>niks</i><par n="mens__prn"/></e>
     <e lm="subject pronouns"><i></i><par n="prsubj__prn"/></e>
     <e lm="object pronouns"><i></i><par n="probj__prn"/></e>
     <e lm="reflexive pronouns"><i></i><par n="prref__prn"/></e>
@@ -11981,8 +11983,14 @@
     <e lm="praten"><p><l>gepraat</l><r>praten</r></p><par n="gesproken__vblex"/></e>
     <e lm="zoeken"><i>zo</i><par n="zo/eken__vblex"/></e>
     <e lm="zoeken"><p><l>gezocht</l><r>zoeken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="proberen"><i>probe</i><par n="ve/ren__vblex"/></e>
+    <e lm="proberen"><p><l>geprobeerd</l><r>proberen</r></p><par n="gesproken__vblex"/></e>
     <e lm="tellen"><i>tel</i><par n="rol/len__vblex"/></e>
     <e lm="tellen"><p><l>geteld</l><r>tellen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="lopen"><p><l>gelopen</l><r>lopen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="lopen"><i>l</i><par n="l/open__vblex"/></e>
+    <e lm="krijgen"><p><l>gekregen</l><r>krijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="krijgen"><i>kr</i><par n="r/ijgen__vblex"/></e>
 </section>
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>

@@ -18,6 +18,7 @@
     <sdef n="vbmod"   c="Modal verb"/>
     <sdef n="cnjcoo"  c="Coordinating conjunction"/>
     <sdef n="cnjadv"  c="Adverbial conjunction"/>
+    <sdef n="tn"      c="Tónico"/>
     <sdef n="nt"      c="Neuter"/>
     <sdef n="m"       c="Masculine"/>
     <sdef n="f"       c="Feminine"/>
@@ -134,6 +135,7 @@
     <e r="LR"><p><l>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p3"/><s n="mf"/></l><r>hja<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/></r></p></e>
 
     <e><p><l>wat<s n="prn"/><s n="itg"/></l><r>wat<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>niks<s n="prn"/><s n="tn"/></l><r>neat<s n="prn"/><s n="ind"/></r></p></e>
 
     <!-- SECTION: Numerals -->
 
@@ -203,6 +205,7 @@
     <e><p><l>klein<s n="adj"/><s n="sint"/></l><r>lyts<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>blij<s n="adj"/><s n="sint"/></l><r>bliid<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>mooi<s n="adj"/><s n="sint"/></l><r>moai<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>klaar<s n="adj"/><s n="sint"/></l><r>dien<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -266,7 +269,10 @@
     <e><p><l>komen<s n="vblex"/></l><r>komme<s n="vblex"/></r></p></e>
     <e><p><l>praten<s n="vblex"/></l><r>prate<s n="vblex"/></r></p></e>
     <e><p><l>zoeken<s n="vblex"/></l><r>sykje<s n="vblex"/></r></p></e>
+    <e><p><l>proberen<s n="vblex"/></l><r>besykje<s n="vblex"/></r></p></e>
     <e><p><l>tellen<s n="vblex"/></l><r>telle<s n="vblex"/></r></p></e>
+    <e><p><l>lopen<s n="vblex"/></l><r>rinne<s n="vblex"/></r></p></e>
+    <e><p><l>krijgen<s n="vblex"/></l><r>krije<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Interjections -->
 
