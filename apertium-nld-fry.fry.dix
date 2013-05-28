@@ -675,6 +675,28 @@
       <e><p><l></l><r>e<s n="vblex"/><s n="imp"/></r></p></e>
     </pardef>
 
+
+
+    <pardef n="hark/je__vblex"> <!-- FIXME -->
+      <e><p><l>je</l><r>je<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>jen</l><r>je<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>t</l><r>je<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>jend</l><r>je<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>ende</l><r>je<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l>je</l><r>je<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>est</l><r>je<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>et</l><r>je<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>je</l><r>je<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>te</l><r>je<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>test</l><r>je<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>te</l><r>je<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ten</l><r>je<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l></l><r>je<s n="vblex"/><s n="imp"/></r></p></e>
+    </pardef>
+
     <pardef n="la/itsje__vblex">
       <e><p><l>itsje</l><r>itsje<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>itsjen</l><r>itsje<s n="vblex"/><s n="inf2"/></r></p></e>
@@ -1305,6 +1327,7 @@
 
     <e lm="miene"><i>mien</i><par n="mien/e__vblex"/></e>
     <e lm="telle"><i>tell</i><par n="mien/e__vblex"/></e> <!-- FIXME -->
+    <e lm="harkje"><i>hark</i><par n="hark/je__vblex"/></e> <!-- FIXME -->
     <e lm="laitsje"><i>la</i><par n="la/itsje__vblex"/></e>
     <e lm="gean"><i>g</i><par n="g/ean__vblex"/></e>
     <e lm="sjen"><i>s</i><par n="s/jen__vblex"/></e>
