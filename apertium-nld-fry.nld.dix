@@ -11786,6 +11786,7 @@
     <e lm="warm"><i>warm</i><par n="eng__adj_sint"/></e>
     <e lm="klein"><i>klein</i><par n="eng__adj_sint"/></e>
     <e lm="blij"><i>blij</i><par n="eng__adj_sint"/></e>
+    <e lm="mooi"><i>mooi</i><par n="eng__adj_sint"/></e>
     <!-- SECTION: adv.xml -->
 
     <e lm="waar"><i>waar</i><par n="hoe__adv"/></e>
