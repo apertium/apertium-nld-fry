@@ -1053,7 +1053,8 @@
 
     <!-- SECTION: Nouns -->
 
-    <e lm="taal"><i>taal</i><par n="taal__n_mf"/></e>
+    <e lm="taal"><i>taal</i><par n="taal__n_mf"/></e> <!-- FIXME -->
+    <e lm="holle"><i>holle</i><par n="taal__n_mf"/></e> <!-- FIXME -->
     <e lm="dream"><i>dream</i><par n="dream__n_mf"/></e>
     <e lm="hûn"><i>hûn</i><par n="dream__n_mf"/></e>
     <e lm="republyk"><i>republyk</i><par n="dream__n_mf"/></e>
@@ -1303,6 +1304,7 @@
     <e lm="wolle"><i>wo</i><par n="wo/lle__vbmod"/></e>
 
     <e lm="miene"><i>mien</i><par n="mien/e__vblex"/></e>
+    <e lm="telle"><i>tell</i><par n="mien/e__vblex"/></e> <!-- FIXME -->
     <e lm="laitsje"><i>la</i><par n="la/itsje__vblex"/></e>
     <e lm="gean"><i>g</i><par n="g/ean__vblex"/></e>
     <e lm="sjen"><i>s</i><par n="s/jen__vblex"/></e>
