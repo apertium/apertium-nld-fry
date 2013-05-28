@@ -1445,6 +1445,7 @@
     <e lm="gau"><i>gau</i><par n="temûk__adv"/></e>
     <e lm="dan"><i>dan</i><par n="temûk__adv"/></e>
     <e lm="dus"><i>dus</i><par n="temûk__adv"/></e>
+    <e lm="tegearre"><i>tegearre</i><par n="temûk__adv"/></e>
     <e lm="oeral"><i>oeral</i><par n="temûk__adv"/></e>
     <e lm="rûnom"><i>rûnom</i><par n="temûk__adv"/></e>
     <e lm="hjoed"><i>hjoed</i><par n="temûk__adv"/></e>
@@ -1454,6 +1455,8 @@
     <e lm="noch"><i>noch</i><par n="temûk__adv"/></e>
     <e lm="jit"><i>jit</i><par n="temûk__adv"/></e>
     <e lm="dêr"><i>dêr</i><par n="temûk__adv"/></e>
+    <e lm="om"><i>om</i><par n="temûk__adv"/></e>
+    <e lm="nei ta"><i>nei<b/>ta</i><par n="temûk__adv"/></e>
     <e lm="meiïnoar"><i>meiïnoar</i><par n="temûk__adv"/></e>
     <e lm="wel"><i>wel</i><par n="temûk__adv"/></e> <!-- FIXME -->
 
