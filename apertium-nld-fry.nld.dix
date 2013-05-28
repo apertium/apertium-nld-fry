@@ -11870,6 +11870,7 @@
     <e lm="boek"><i>boek</i><par n="lot__n_nt"/></e>
     <e lm="bos"><i>bos</i><par n="es__n_nt"/></e>
     <e lm="appel"><i>appel</i><par n="sol__n_m"/></e>
+    <e lm="tafel"><i>tafel</i><par n="hui__n_mf"/></e>
     <e lm="dochter"><i>dochter</i><par n="roe__n_f"/></e>
     <e lm="hand"><i>hand</i><par n="vering__n_f"/></e>
     <e lm="hoofdstad"><i>hoofdst</i><par n="st/ad__n_f"/></e>
@@ -11905,6 +11906,7 @@
     <e lm="zijn"><i/><par n="/zijn__vbser"/></e>
     <e lm="hebben"><i></i><par n="/hebben__vbhaver"/></e>
     <e lm="kunnen"><i></i><par n="/kunnen__vbmod"/></e>
+    <e lm="moeten"><i></i><par n="/moeten__vbmod"/></e>
     <!-- SECTION: preadv.xml -->
 
     <!-- SECTION: predet.xml -->
@@ -11937,6 +11939,7 @@
     <!-- SECTION: vaux.xml -->
 
     <e lm="willen"><i></i><par n="/willen__vaux"/></e>
+    <e lm="zullen"><i></i><par n="/zullen__vaux"/></e>
     <!-- SECTION: vblex.xml -->
 
     <e lm="denken"><i>d</i><par n="d/enken__vblex"/></e>

@@ -591,6 +591,44 @@
       <e r="LR"><p><l>ienen</l><r>awwe<s n="vbhaver"/><s n="past"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="moa/tte__vbmod">
+      <e><p><l>tte</l><r>tte<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e><p><l>tten</l><r>tte<s n="vbmod"/><s n="inf2"/></r></p></e>
+      <e><p><l>tten</l><r>tte<s n="vbmod"/><s n="pp"/></r></p></e>
+      <e><p><l>ttend</l><r>tte<s n="vbmod"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>ttende</l><r>tte<s n="vbmod"/><s n="pprs"/></r></p></e>
+      <e><p><l>t</l><r>tte<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>tst</l><r>tte<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>t</l><r>tte<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>tte</l><r>tte<s n="vbmod"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>oast</l><r>tte<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>oast</l><r>tte<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>oast</l><r>tte<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>oasten</l><r>tte<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="s/ille__vbmod">
+      <e><p><l>ille</l><r>ille<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e><p><l>illen</l><r>ille<s n="vbmod"/><s n="inf2"/></r></p></e>
+      <e><p><l>illen</l><r>ille<s n="vbmod"/><s n="pp"/></r></p></e>
+      <e r="LR"><p><l>ild</l><r>ille<s n="vbmod"/><s n="pp"/></r></p></e>
+      <e><p><l>illend</l><r>ille<s n="vbmod"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>illende</l><r>ille<s n="vbmod"/><s n="pprs"/></r></p></e>
+      <e><p><l>l</l><r>ille<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>lst</l><r>ille<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>l</l><r>ille<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ille</l><r>ille<s n="vbmod"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>oe</l><r>ille<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>oest</l><r>ille<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>oe</l><r>ille<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>oenen</l><r>ille<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>oene</l><r>ille<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
     <pardef n="wo/lle__vbmod">
       <e><p><l>lle</l><r>lle<s n="vbmod"/><s n="inf"/></r></p></e>
       <e><p><l>llen</l><r>lle<s n="vbmod"/><s n="inf2"/></r></p></e>
@@ -603,11 +641,11 @@
       <e><p><l>l</l><r>lle<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>lle</l><r>lle<s n="vbmod"/><s n="pres"/><s n="pl"/></r></p></e>
 
-      <e><p><l>oe</l><r>lle<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>oest</l><r>lle<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>oe</l><r>lle<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>oenen</l><r>lle<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>oene</l><r>lle<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>lle<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>est</l><r>lle<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>lle<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>enen</l><r>lle<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ene</l><r>lle<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="k/inne__vbmod">
@@ -1077,6 +1115,8 @@
 
     <e lm="taal"><i>taal</i><par n="taal__n_mf"/></e> <!-- FIXME -->
     <e lm="holle"><i>holle</i><par n="taal__n_mf"/></e> <!-- FIXME -->
+    <e lm="tafel"><i>tafel</i><par n="taal__n_mf"/></e> <!-- FIXME -->
+
     <e lm="dream"><i>dream</i><par n="dream__n_mf"/></e>
     <e lm="hûn"><i>hûn</i><par n="dream__n_mf"/></e>
     <e lm="republyk"><i>republyk</i><par n="dream__n_mf"/></e>
@@ -1324,6 +1364,8 @@
     <e lm="hawwe"><i>h</i><par n="h/awwe__vbhaver"/></e>
     <e lm="kinne"><i>k</i><par n="k/inne__vbmod"/></e>
     <e lm="wolle"><i>wo</i><par n="wo/lle__vbmod"/></e>
+    <e lm="sille"><i>s</i><par n="s/ille__vbmod"/></e>
+    <e lm="moatte"><i>moa</i><par n="moa/tte__vbmod"/></e>
 
     <e lm="miene"><i>mien</i><par n="mien/e__vblex"/></e>
     <e lm="telle"><i>tell</i><par n="mien/e__vblex"/></e> <!-- FIXME -->

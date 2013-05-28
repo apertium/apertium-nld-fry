@@ -6,6 +6,7 @@ LIST EOS = (<<<) ;
 
 LIST V = vblex vbser vbhaver vbmod vaux ;
 LIST VAUX = vaux ; 
+LIST VMOD = vbmod ; 
 LIST Pron = prn ;
 LIST Pr = pr ; 
 LIST N = n ;
@@ -28,6 +29,8 @@ LIST CLB = sent subj ;
 
 
 SECTION
+
+REMOVE Imper IF (0 VMOD);
 
 SELECT Subj IF (0C Subj OR Obj) (-1 BOS);
 
@@ -75,3 +78,4 @@ REMOVE Obj IF (0C Subj OR Obj) (-1C VAUX) (-2 BOS OR Cm);
 SELECT Subj + $$PERS IF (-1C VAUX + $$PERS) (0C Subj);
 
 SELECT Subj + $$NUMBER IF (-1C VAUX + $$NUMBER) (0C Subj);
+

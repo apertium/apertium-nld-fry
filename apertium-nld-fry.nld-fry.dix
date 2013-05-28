@@ -152,6 +152,7 @@
     <e><p><l>boek<s n="n"/><s n="nt"/></l><r>boek<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bos<s n="n"/><s n="nt"/></l><r>bosk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>appel<s n="n"/><s n="m"/></l><r>apel<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>tafel<s n="n"/><s n="mf"/></l><r>tafel<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>dochter<s n="n"/><s n="f"/></l><r>dochter<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>hand<s n="n"/><s n="f"/></l><r>hân<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>hoofdstad<s n="n"/><s n="f"/></l><r>haadstêd<s n="n"/><s n="mf"/></r></p></e>
@@ -244,7 +245,9 @@
     <e><p><l>zijn<s n="vbser"/></l><r>wêze<s n="vbser"/></r></p></e>
     <e><p><l>hebben<s n="vbhaver"/></l><r>hawwe<s n="vbhaver"/></r></p></e>
     <e><p><l>kunnen<s n="vbmod"/></l><r>kinne<s n="vbmod"/></r></p></e>
+    <e><p><l>moeten<s n="vbmod"/></l><r>moatte<s n="vbmod"/></r></p></e>
     <e><p><l>willen<s n="vaux"/></l><r>wolle<s n="vbmod"/></r></p></e>
+    <e><p><l>zullen<s n="vaux"/></l><r>sille<s n="vbmod"/></r></p></e>
 
     <e><p><l>denken<s n="vblex"/></l><r>miene<s n="vblex"/></r></p></e>
     <e><p><l>lachen<s n="vblex"/></l><r>laitsje<s n="vblex"/></r></p></e>

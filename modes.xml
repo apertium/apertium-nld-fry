@@ -28,6 +28,34 @@
     </pipeline>
   </mode>
 
+  <mode name="nld-fry-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="nld-fry.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-fry.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="nld-fry.prob"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="nld-fry.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="nld-fry.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-nld-fry.nld-fry.t1x"/>
+        <file name="nld-fry.t1x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="nld-fry.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="nld-fry-transfer">
     <pipeline>
       <program name="lt-proc -e">
