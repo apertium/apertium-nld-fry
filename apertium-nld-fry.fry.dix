@@ -1372,6 +1372,7 @@
 
     <e lm="goed"><i></i><par n="/goed__adj_sint"/></e>
     <e lm="âld"><i>âld</i><par n="âld__adj_sint"/></e>
+    <e lm="aardich"><i>aardich</i><par n="âld__adj_sint"/></e> <!-- FIXME -->
     <e lm="bliid"><i>bliid</i><par n="âld__adj_sint"/></e>
     <e lm="kâld"><i>kâld</i><par n="kâld__adj_sint"/></e>
     <e lm="waarm"><i>waarm</i><par n="kâld__adj_sint"/></e>
