@@ -591,6 +591,25 @@
       <e r="LR"><p><l>ienen</l><r>awwe<s n="vbhaver"/><s n="past"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="wo/lle__vbmod">
+      <e><p><l>lle</l><r>lle<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e><p><l>llen</l><r>lle<s n="vbmod"/><s n="inf2"/></r></p></e>
+      <e><p><l>llen</l><r>lle<s n="vbmod"/><s n="pp"/></r></p></e>
+      <e r="LR"><p><l>ld</l><r>lle<s n="vbmod"/><s n="pp"/></r></p></e>
+      <e><p><l>llend</l><r>lle<s n="vbmod"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>llende</l><r>lle<s n="vbmod"/><s n="pprs"/></r></p></e>
+      <e><p><l>l</l><r>lle<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>lst</l><r>lle<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>l</l><r>lle<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>lle</l><r>lle<s n="vbmod"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>oe</l><r>lle<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>oest</l><r>lle<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>oe</l><r>lle<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>oenen</l><r>lle<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>oene</l><r>lle<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="k/inne__vbmod">
       <e><p><l>inne</l><r>inne<s n="vbmod"/><s n="inf"/></r></p></e>
       <e><p><l>innen</l><r>inne<s n="vbmod"/><s n="inf2"/></r></p></e>
@@ -1035,6 +1054,7 @@
     <e lm="bears"><i>bear</i><par n="bear/s__n_mf"/></e>
     <e lm="berch"><i>ber</i><par n="ber/ch__n_nt"/></e>
     <e lm="beuker"><i>beuker</i><par n="koker__n_nt"/></e>
+    <e lm="famke"><i>famke</i><par n="koker__n_nt"/></e>
     <e lm="biezem"><i>biezem</i><par n="koker__n_nt"/></e>
     <e lm="blei"><i>blei</i><par n="dream__n_mf"/></e>
     <e lm="boarre"><i>boarre</i><par n="ûne__n_mf"/></e>
@@ -1211,6 +1231,7 @@
 
     <e lm="goed"><i></i><par n="/goed__adj_sint"/></e>
     <e lm="âld"><i>âld</i><par n="âld__adj_sint"/></e>
+    <e lm="bliid"><i>bliid</i><par n="âld__adj_sint"/></e>
     <e lm="kâld"><i>kâld</i><par n="kâld__adj_sint"/></e>
     <e lm="waarm"><i>waarm</i><par n="kâld__adj_sint"/></e>
     <e lm="grut"><i>grut</i><par n="grut__adj_sint"/></e>
@@ -1255,6 +1276,7 @@
     <e lm="wêze"><i></i><par n="/wêze__vbser"/></e>
     <e lm="hawwe"><i>h</i><par n="h/awwe__vbhaver"/></e>
     <e lm="kinne"><i>k</i><par n="k/inne__vbmod"/></e>
+    <e lm="wolle"><i>wo</i><par n="wo/lle__vbmod"/></e>
 
     <e lm="miene"><i>mien</i><par n="mien/e__vblex"/></e>
     <e lm="laitsje"><i>la</i><par n="la/itsje__vblex"/></e>

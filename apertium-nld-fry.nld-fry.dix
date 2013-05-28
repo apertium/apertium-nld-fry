@@ -8,6 +8,7 @@
     <sdef n="ij"      c="Interjection"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="adv"     c="Adverb"/>
+    <sdef n="vaux"    c="Auxiliary verb"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="preadv"  c="Preadverb"/>
     <sdef n="prn"     c="Pronoun"/>
@@ -178,6 +179,8 @@
     <e><p><l>jongen<s n="n"/><s n="m"/></l><r>jonge<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>vraag<s n="n"/><s n="mf"/></l><r>fraach<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>stoel<s n="n"/><s n="m"/></l><r>stoel<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>meisje<s n="n"/><s n="nt"/></l><r>famke<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>zus<s n="n"/><s n="f"/></l><r>sus<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -196,6 +199,7 @@
     <e><p><l>groot<s n="adj"/><s n="sint"/></l><r>grut<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>warm<s n="adj"/><s n="sint"/></l><r>waarm<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>klein<s n="adj"/><s n="sint"/></l><r>lyts<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>blij<s n="adj"/><s n="sint"/></l><r>bliid<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -238,6 +242,7 @@
     <e><p><l>zijn<s n="vbser"/></l><r>wêze<s n="vbser"/></r></p></e>
     <e><p><l>hebben<s n="vbhaver"/></l><r>hawwe<s n="vbhaver"/></r></p></e>
     <e><p><l>kunnen<s n="vbmod"/></l><r>kinne<s n="vbmod"/></r></p></e>
+    <e><p><l>willen<s n="vaux"/></l><r>wolle<s n="vbmod"/></r></p></e>
 
     <e><p><l>denken<s n="vblex"/></l><r>miene<s n="vblex"/></r></p></e>
     <e><p><l>lachen<s n="vblex"/></l><r>laitsje<s n="vblex"/></r></p></e>

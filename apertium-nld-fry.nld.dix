@@ -11784,6 +11784,7 @@
     <e lm="groot"><i>gro</i><par n="blo/ot__adj_sint"/></e>
     <e lm="warm"><i>warm</i><par n="eng__adj_sint"/></e>
     <e lm="klein"><i>klein</i><par n="eng__adj_sint"/></e>
+    <e lm="blij"><i>blij</i><par n="eng__adj_sint"/></e>
     <!-- SECTION: adv.xml -->
 
     <e lm="waar"><i>waar</i><par n="hoe__adv"/></e>
@@ -11894,6 +11895,8 @@
     <e lm="jongen"><i>jongen</i><par n="led__n_m"/></e>
     <e lm="vraag"><i>vra</i><par n="za/ag__n_mf"/></e>
     <e lm="stoel"><i>stoel</i><par n="Belg__n_m"/></e>
+    <e lm="meisje"><i>meisje</i><par n="eon__n_nt"/></e>
+    <e lm="zus"><i>zus</i><par n="as__n_f"/></e>
     <!-- SECTION: otr.xml -->
 
     <e lm="zijn"><i/><par n="/zijn__vbser"/></e>
@@ -11930,6 +11933,7 @@
 
     <!-- SECTION: vaux.xml -->
 
+    <e lm="willen"><i></i><par n="/willen__vaux"/></e>
     <!-- SECTION: vblex.xml -->
 
     <e lm="denken"><i>d</i><par n="d/enken__vblex"/></e>
