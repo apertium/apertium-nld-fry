@@ -254,6 +254,7 @@
       <e>       <p><l>jullie</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>zij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ze</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
     </pardef>
 
@@ -11815,6 +11816,7 @@
     <e lm="dus"><i>dus</i><par n="es__adv"/></e>
     <e lm="nog steeds"><i>nog<b/>steeds</i><par n="es__adv"/></e>
     <e lm="nog steeds"><i>nog<b/>steeds</i><par n="es__adv"/></e>
+    <e lm="wel"><i>wel</i><par n="es__adv"/></e>
     <!-- SECTION: cnj.xml -->
 
     <e lm="en"><i>en</i><par n="en__cnjcoo"/></e>
@@ -11875,6 +11877,7 @@
     <e lm="president"><i>president</i><par n="Belg__n_m"/></e>
     <e lm="volksrepubliek"><i>volksrepubliek</i><par n="vering__n_f"/></e>
     <e lm="tuin"><i>tuin</i><par n="Belg__n_m"/></e>
+    <e lm="voortuin"><i>voortuin</i><par n="Belg__n_m"/></e>
     <e lm="huis"><i>hui</i><par n="hui/s__n_nt"/></e>
     <e lm="jaar"><i>ja</i><par n="ka/ar__n_nt"/></e>
     <e lm="hond"><i>hond</i><par n="Belg__n_m"/></e>
@@ -11972,6 +11975,8 @@
     <e lm="komen"><p><l>gekomen</l><r>komen</r></p><par n="gesproken__vblex"/></e>
     <e lm="praten"><i>pra</i><par n="ba/ten__vblex"/></e>
     <e lm="praten"><p><l>gepraat</l><r>praten</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zoeken"><i>zo</i><par n="zo/eken__vblex"/></e>
+    <e lm="zoeken"><p><l>gezocht</l><r>zoeken</r></p><par n="gesproken__vblex"/></e>
 </section>
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>

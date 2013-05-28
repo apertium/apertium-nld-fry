@@ -254,6 +254,7 @@
       <e>       <p><l>jullie</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>zij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ze</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
     </pardef>
 
@@ -14212,6 +14213,7 @@
     <e lm="deugdzaam"><i>deugdza</i><par n="minza/am__adj_sint"/></e>
     <e lm="devoot"><i>devo</i><par n="blo/ot__adj_sint"/></e>
     <e lm="dicht"><i>dicht</i><par n="eng__adj_sint"/></e>
+    <e lm="dichtbij"><p><l>dicht</l><r>dichtbij</r></p><par n="eng__adj_sint"/><p><l>bij</l><r></r></p></e>
     <e lm="dienend"><i>dienend</i><par n="gans__adj"/></e>
     <e lm="dienstig"><i>dienstig</i><par n="eng__adj_sint"/></e>
     <e lm="dienstplichtig"><i>dienstplichtig</i><par n="nipt__adj"/></e>
@@ -27409,6 +27411,7 @@
     <e lm="tuigmeester"><i>tuigmeester</i><par n="led__n_m"/></e>
     <e lm="tuimelaar"><i>tuimelaar</i><par n="led__n_m"/></e>
     <e lm="tuin"><i>tuin</i><par n="Belg__n_m"/></e>
+    <e lm="voortuin"><i>voortuin</i><par n="Belg__n_m"/></e>
     <e lm="tuinbouw"><i>tuinbouw</i><par n="eb__n_m"/></e>
     <e lm="tuinbroek"><i>tuinbroek</i><par n="vering__n_f"/></e>
     <e lm="tuinder"><i>tuinder</i><par n="led__n_m"/></e>

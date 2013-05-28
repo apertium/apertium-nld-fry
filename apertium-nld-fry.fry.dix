@@ -783,6 +783,28 @@
     </pardef>
 
 
+    <pardef n="s/ykje__vblex">
+      <e><p><l>ykje</l><r>ykje<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ykje</l><r>ykje<s n="vblex"/><s n="inf2"/></r></p></e>
+      <e><p><l>ocht</l><r>ykje<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>ykjend</l><r>ykje<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>ykjende</l><r>ykje<s n="vblex"/><s n="pprs"/></r></p></e>
+
+      <e><p><l>ykje</l><r>ykje<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ikest</l><r>ykje<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>iket</l><r>ykje<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ykje</l><r>ykje<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ocht</l><r>ykje<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ochtst</l><r>ykje<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ocht</l><r>ykje<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ochten</l><r>ykje<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ykje</l><r>ykje<s n="vblex"/><s n="imp"/></r></p></e>
+    </pardef>
+
+
+
     <pardef n="f/ine__vblex">
       <e><p><l>ine</l><r>ine<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>ine</l><r>ine<s n="vblex"/><s n="inf2"/></r></p></e>
@@ -1199,6 +1221,7 @@
     <e lm="tsjirk"><i>tsjirk</i><par n="dream__n_mf"/></e>
     <e lm="tsjoenster"><i>tsjoenster</i><par n="apel__n_mf"/></e>
     <e lm="tún"><i>t</i><par n="t/ún__n_mf"/></e>
+    <e lm="foartún"><i>foart</i><par n="t/ún__n_mf"/></e>
     <e lm="weer"><i>weer</i><par n="weer__n_nt"/></e>
     <e lm="wein"><i>wein</i><par n="dream__n_mf"/></e>
     <e lm="wierheid"><i>wierhe</i><par n="stri/id__n_mf"/></e>
@@ -1270,6 +1293,7 @@
     <e lm="jit"><i>jit</i><par n="temûk__adv"/></e>
     <e lm="dêr"><i>dêr</i><par n="temûk__adv"/></e>
     <e lm="meiïnoar"><i>meiïnoar</i><par n="temûk__adv"/></e>
+    <e lm="wel"><i>wel</i><par n="temûk__adv"/></e> <!-- FIXME -->
 
     <!-- SECTION: Verbs -->
 
@@ -1290,6 +1314,7 @@
     <e lm="sitte"><i>si</i><par n="si/tte__vblex"/></e>
     <e lm="drinke"><i>dr</i><par n="dr/inke__vblex"/></e>
     <e lm="fine"><i>f</i><par n="f/ine__vblex"/></e>
+    <e lm="sykje"><i>s</i><par n="s/ykje__vblex"/></e>
     <e lm="ite"><i></i><par n="/ite__vblex"/></e>
     <e lm="prate"><i>pra</i><par n="pra/te__vblex"/></e>
 

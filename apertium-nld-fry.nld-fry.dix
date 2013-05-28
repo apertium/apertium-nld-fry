@@ -159,6 +159,7 @@
     <e><p><l>president<s n="n"/><s n="m"/></l><r>presidint<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>volksrepubliek<s n="n"/><s n="f"/></l><r>folksrepublyk<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>tuin<s n="n"/><s n="m"/></l><r>tún<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>voortuin<s n="n"/><s n="m"/></l><r>foartún<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>huis<s n="n"/><s n="nt"/></l><r>hûs<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>jaar<s n="n"/><s n="nt"/></l><r>jier<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hond<s n="n"/><s n="m"/></l><r>dogge<s n="n"/><s n="mf"/></r></p></e>
@@ -236,6 +237,7 @@
     <e><p><l>nog<b/>steeds<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
     <e><p><l>nog<b/>steeds<s n="adv"/></l><r>jit<s n="adv"/></r></p></e>
 
+    <e><p><l>wel<s n="adv"/></l><r>wel<s n="adv"/></r></p></e> <!-- FIXME -->
 
     <!-- SECTION: Verbs -->
 
@@ -259,6 +261,7 @@
     <e><p><l>doen<s n="vblex"/></l><r>dwaan<s n="vblex"/></r></p></e>
     <e><p><l>komen<s n="vblex"/></l><r>komme<s n="vblex"/></r></p></e>
     <e><p><l>praten<s n="vblex"/></l><r>prate<s n="vblex"/></r></p></e>
+    <e><p><l>zoeken<s n="vblex"/></l><r>sykje<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Interjections -->
 
