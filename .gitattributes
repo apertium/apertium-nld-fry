@@ -1,4 +1,5 @@
 * text=auto !eol
+/Makefile -text
 /apertium-nld-fry.fry-nld.lrx -text
 /apertium-nld-fry.fry-nld.t1x -text
 /apertium-nld-fry.fry.dix -text
