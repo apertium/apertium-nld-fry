@@ -12014,6 +12014,8 @@
     <e lm="spelen"><p><l>gespeeld</l><r>spelen</r></p><par n="gesproken__vblex"/></e>
     <e lm="kijken"><p><l>gekeken</l><r>kijken</r></p><par n="gesproken__vblex"/></e>
     <e lm="kijken"><i>k</i><par n="k/ijken__vblex"/></e>
+    <e lm="leren"><i>le</i><par n="ve/ren__vblex"/></e>
+    <e lm="leren"><p><l>geleerd</l><r>leren</r></p><par n="gesproken__vblex"/></e>
 </section>
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>

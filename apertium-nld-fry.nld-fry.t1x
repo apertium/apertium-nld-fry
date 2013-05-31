@@ -10,6 +10,24 @@
     <def-cat n="vblex-imp">
       <cat-item tags="vblex.imp.*"/>
     </def-cat>
+
+    <def-cat n="v-fin">
+      <cat-item tags="vaux.pres.*"/>
+      <cat-item tags="vaux.past.*"/>
+    </def-cat>
+
+    <def-cat n="prn-subj">
+      <cat-item tags="prn.subj.*"/>
+    </def-cat>
+
+
+    <def-cat n="vblex-inf">
+      <cat-item tags="vblex.inf"/>
+    </def-cat>
+
+    <def-cat n="vbmod-inf">
+      <cat-item tags="vbmod.inf"/>
+    </def-cat>
    
   </section-def-cats>
   
@@ -24,12 +42,10 @@
       <attr-item tags="abl"/>
     </def-attr>
        
-    <def-attr n="poss">
-      <attr-item tags="px1sg"/>
-      <attr-item tags="px2sg"/>
-      <attr-item tags="px3sp"/>
-      <attr-item tags="px1pl"/>
-      <attr-item tags="px2pl"/>
+    <def-attr n="a_prn">
+      <attr-item tags="subj"/>
+      <attr-item tags="obj"/>
+      <attr-item tags="enc"/>
     </def-attr>
 
     <def-attr n="nbr">
@@ -79,6 +95,48 @@
         </out>
       </action>
     </rule>
-    
+
+    <rule comment="REGLA: v-fin prn-subj"> 
+      <pattern>
+        <pattern-item n="v-fin"/>
+        <pattern-item n="prn-subj"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test><equal><clip pos="2" side="tl" part="lem"/><lit v="hy"/></equal></test>
+            <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="enc"/></let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+ 
+    <rule comment="REGLA: vbmod-inf vblex-inf"> 
+      <pattern>
+        <pattern-item n="vbmod-inf"/>
+        <pattern-item n="vblex-inf"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+     
   </section-rules>
 </transfer>

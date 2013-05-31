@@ -39,6 +39,7 @@
     <sdef n="pos"     c="Possessive"/>
     <sdef n="def"     c="Definite"/>
     <sdef n="itg"     c="Interrogative"/>
+    <sdef n="enc"     c="Clitic form"/>
     <sdef n="par"     c="Partitive"/>
     <sdef n="gen"     c="Genitive"/>
     <sdef n="attr"    c="Attributive"/>
@@ -173,9 +174,10 @@
       <e><p><l>y</l><r>o<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
-    <pardef n="h/y__prn">
-      <e><p><l>y</l><r>y<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>im</l><r>y<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <pardef n="/hy__prn">
+      <e><p><l>hy</l><r>hy<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>him</l><r>hy<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>er</l><r>hy<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="/sy__prn">
@@ -1170,7 +1172,7 @@
 
     <e lm="ik"><i></i><par n="/ik__prn"/></e>
     <e lm="do"><i>d</i><par n="d/o__prn"/></e>
-    <e lm="hy"><i>h</i><par n="h/y__prn"/></e>
+    <e lm="hy"><i></i><par n="/hy__prn"/></e>
     <e lm="sy"><i></i><par n="/sy__prn"/></e>
     <e lm="it"><i>it</i><par n="it__prn"/></e>
     <e lm="wy"><i>w</i><par n="/wy__prn"/></e>
@@ -1471,6 +1473,7 @@
 
     <e lm="miene"><i>mien</i><par n="mien/e__vblex"/></e>
     <e lm="telle"><i>tell</i><par n="mien/e__vblex"/></e> <!-- FIXME -->
+    <e lm="leare"><i>lear</i><par n="mien/e__vblex"/></e> <!-- FIXME -->
     <e lm="harkje"><i>hark</i><par n="hark/je__vblex"/></e> <!-- FIXME -->
     <e lm="laitsje"><i>la</i><par n="la/itsje__vblex"/></e>
     <e lm="gean"><i>g</i><par n="g/ean__vblex"/></e>
