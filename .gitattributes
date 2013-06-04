@@ -20,4 +20,6 @@ nld/apertium-nld-fry.nld.dix.full -text
 nld/backup_update.sh -text
 nld/trimDict.py -text
 nld/update.sh -text
+texts/story.fry.1.txt -text
+texts/story.fry.2.txt -text
 texts/story.nld.txt -text
