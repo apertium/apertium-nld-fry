@@ -23,3 +23,8 @@ nld/update.sh -text
 texts/story.fry.1.txt -text
 texts/story.fry.2.txt -text
 texts/story.nld.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
